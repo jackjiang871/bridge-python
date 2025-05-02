@@ -10,33 +10,74 @@ import random
 # -> RESULT {"type":"tag","name":"Result","value":"9"}
 # -> SCORE {"type":"tag","name":"Score","value":"NS 50"}
 
+# PLAY and AUCTION need to have completed format and non completed format to support live games
+
+# bridge class that should work well with parsed pbn format
+# actions are mostly in the format of parsed pbn format, but one caveat is
+# auction and play input formats are different.
+# You need to first convert the parsed pbn format's auction and play params into 'live' auction and play
+# because this class will parse each action one by one and determine if its legal or not
 class bridge():
     # spades, hearts, diamonds, clubs
     suits = ['C','D','H','S']
     ranks = ['2','3','4','5','6','7','8','9','T','J','Q','K','A']
+    players = ['N','E','S','W']
 
-    def __init__(self):
+    # Pass in actions to simulate each action for the match
+    def __init__(self, actions=None):
+        # setup cards, ordered by suit + rank
         self.cards = [s + r for s in self.suits for r in self.ranks]
-        self.hands = {'N': [], 'S': [], 'E': [], 'W': []}
-        self.dealer = self.getRandomDealer()
-        self.deal = []
-        self.vulnerable = None
-        self.phase = 'AUCTION'
-        self.generateDeal()
 
-    def getRandomDealer(self):
-        return random.choice(['N','S','E','W'])
+        self.actions = actions
+        self.hands = {'N': [], 'S': [], 'E': [], 'W': []}
+        self.gameIndex = 0
+        self.states = [] # Vulnerable + Dealer of each game
+        self.deals = []
+        self.auctions = []
+        self.contracts = []
+        self.currentPhase = None
+        self.vulnerable = None
+
+        if self.actions == None:
+            # initialize a fresh match
+            self.actions = []
+            self.actions.append({ 'name': 'Vulnerable', 'value': 'None' })
+            self.actions.append({ 'name': 'Dealer', "value": random.choice([self.players]) })
+            self.actions.append(self.generateDeal())
+        for action in actions:
+            self.simulate(action)
 
     def generateDeal(self):
         shuffledCards = random.sample(self.cards, k=len(self.cards))
-        self.deal = shuffledCards
+        dealtCards = []
+        for card in shuffledCards[ 0:13]:
+            dealtCards.append({'seat': 'N', 'suit': card[0], 'rank': card[1]})
+        for card in shuffledCards[13:26]:
+            dealtCards.append({'seat': 'W', 'suit': card[0], 'rank': card[1]})
+        for card in shuffledCards[26:39]:
+            dealtCards.append({'seat': 'S', 'suit': card[0], 'rank': card[1]})
+        for card in shuffledCards[39:52]:
+            dealtCards.append({'seat': 'E', 'suit': card[0], 'rank': card[1]})
+        deal = {'name':'Deal' , 'cards': dealtCards}
+        return deal
 
-        self.hands['N'] = self.deal[ 0:13]
-        self.hands['E'] = self.deal[13:26]
-        self.hands['S'] = self.deal[26:39]
-        self.hands['W'] = self.deal[39:52]
+    # updates states based on each action
+    # NOTE: actions for auction/play are in non parsed pbn format:
+    # {"name":"Auction", "player":"N", value:"1D"}
+    # {"name":"Play", "player":"W", value"H3"}
+    def simulate(self, action):
+        if action['name'] == 'Vulnerable':
+            pass
+        elif action['name'] == 'Dealer':
+            pass
+        elif action['name'] == 'Deal':
+            pass
+        elif action['name'] == 'Auction':
+            pass
+        elif action['name'] == 'Play':
+            pass
 
-    def play(self, actions):
+    def simulateGame(self, actions):
         for action in actions:
             # Auction phase
             # each bid must be higher than the last
