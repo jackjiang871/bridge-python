@@ -10,7 +10,137 @@ import random
 # -> RESULT {"type":"tag","name":"Result","value":"9"}
 # -> SCORE {"type":"tag","name":"Score","value":"NS 50"}
 
-# PLAY and AUCTION need to have completed format and non completed format to support live games
+class Auction:
+    """
+    Encapsulates a contract bridge auction sequence:
+      - Records calls (Pass, X, XX, or bids like '1C','2NT', etc.)
+      - Validates each call for basic legality
+      - Detects end-of-auction conditions (pass out or 3 passes after last bid)
+      - Computes final contract and declarer
+    """
+
+    # allowed denominations (in increasing order) and levels
+    DENOMINATIONS = ['C', 'D', 'H', 'S', 'NT']
+    LEVELS = list(range(1, 8))  # 1 through 7
+
+    def __init__(self):
+        self.calls = []             # list of {'player': 'N', 'call': '1H' | 'Pass' | ...}
+        self.last_bid_idx = None    # index into calls where last real bid occurred
+
+    @classmethod
+    def _bid_value(cls, bid_str: str) -> int:
+        """Convert a bid like '3NT' into an integer for ordering"""
+        level = int(bid_str[0])
+        denom = bid_str[1:]
+        denom_index = cls.DENOMINATIONS.index(denom)
+        # spread out by levels so all 1x < all 2x < ...
+        return (level - 1) * len(cls.DENOMINATIONS) + denom_index
+
+    def is_valid_call(self, player: str, call: str) -> bool:
+        """Basic legality checks for a new call"""
+        # Pass always legal
+        if call == 'Pass':
+            return True
+
+        # Double: only immediately after an opponent's bid
+        if call == 'X':
+            if not self.calls or self.calls[-1]['call'] in ('Pass', 'X', 'XX'):
+                return False
+            return self.calls[-1]['player'] != player
+
+        # Redouble: only immediately after opponent's Double
+        if call == 'XX':
+            if not self.calls or self.calls[-1]['call'] != 'X':
+                return False
+            return self.calls[-1]['player'] != player
+
+        # Otherwise must be a level+denomination bid
+        if len(call) < 2 or not call[0].isdigit():
+            return False
+        level = int(call[0])
+        denom = call[1:]
+        if level not in self.LEVELS or denom not in self.DENOMINATIONS:
+            return False
+        # must exceed any previous bid
+        if self.last_bid_idx is not None:
+            last = self.calls[self.last_bid_idx]['call']
+            if self._bid_value(call) <= self._bid_value(last):
+                return False
+        return True
+
+    def add_call(self, player: str, call: str) -> bool:
+        """
+        Record a new call. Raises ValueError if invalid.
+        Returns True if auction is now finished, False otherwise.
+        """
+        if not self.is_valid_call(player, call):
+            raise ValueError(f"Illegal call {call!r} by {player}")
+
+        self.calls.append({'player': player, 'call': call})
+        idx = len(self.calls) - 1
+        # track last real bid
+        if call not in ('Pass', 'X', 'XX'):
+            self.last_bid_idx = idx
+
+        return self.is_finished()
+
+    def is_finished(self) -> bool:
+        """True if auction has ended: pass-out or three passes after last bid"""
+        # Pass-out: first four calls are Pass
+        if self.last_bid_idx is None and len(self.calls) >= 4:
+            if all(c['call'] == 'Pass' for c in self.calls[:4]):
+                return True
+
+        # Normal: at least three calls after the last bid
+        if self.last_bid_idx is not None:
+            if len(self.calls) - self.last_bid_idx >= 4:
+                return True
+
+        return False
+
+    def contract(self) -> dict:
+        """
+        Returns final contract as:
+          {'level': int, 'denomination': str or None, 'risk': ''|'X'|'XX'}
+        """
+        if not self.is_finished():
+            raise RuntimeError("Auction not finished yet")
+
+        # pass-out
+        if self.last_bid_idx is None:
+            return {'level': 0, 'denomination': None, 'risk': ''}
+
+        last_bid = self.calls[self.last_bid_idx]
+        level = int(last_bid['call'][0])
+        denom = last_bid['call'][1:]
+        tail = [c['call'] for c in self.calls[self.last_bid_idx+1:]]
+        if 'XX' in tail:
+            risk = 'XX'
+        elif 'X' in tail:
+            risk = 'X'
+        else:
+            risk = ''
+
+        return {'level': level, 'denomination': denom, 'risk': risk}
+
+    def declarer(self) -> str:
+        """
+        Returns the seat ('N','E','S','W') of the player who first bid the final contract.
+        """
+        ctr = self.contract()
+        if ctr['level'] == 0:
+            return None
+        bid_str = f"{ctr['level']}{ctr['denomination']}"
+        for c in self.calls:
+            if c['call'] == bid_str:
+                return c['player']
+        return None
+
+    def reset(self):
+        """Clear the auction state to start anew."""
+        self.calls.clear()
+        self.last_bid_idx = None
+
 
 # bridge class that should work well with parsed pbn format
 # actions are mostly in the format of parsed pbn format, but one caveat is
@@ -29,12 +159,15 @@ class bridge():
         self.cards = [s + r for s in self.suits for r in self.ranks]
 
         # game state
-        self.actions = actions
-        self.hands = {'N': [], 'S': [], 'E': [], 'W': []}
+        self.actions = actions or []
+        self.hands = {'N': [], 'E': [], 'S': [], 'W': []}
         self.dealer = None
         self.gameIndex = 0
         self.currentPhase = None
         self.vulnerable = None
+
+        # auction state
+        self.auction = None
 
         # info required for pbn format
         self.dealers = []
@@ -46,13 +179,14 @@ class bridge():
         self.results = []
         self.scores = []
 
-        if self.actions == None:
+        if not self.actions:
             # initialize a fresh match
-            self.actions = []
-            self.actions.append({ 'name': 'Vulnerable', 'value': 'None' })
-            self.actions.append({ 'name': 'Dealer', "value": random.choice([self.seats]) })
-            self.actions.append(self.generateDeal())
-        for action in actions:
+            self.actions = [
+                {'name':'Vulnerable','value':'None'},
+                {'name':'Dealer','value':random.choice(self.seats)},
+                self.generateDeal()
+            ]
+        for action in self.actions:
             self.simulate(action)
 
     def generateDeal(self):
@@ -87,9 +221,27 @@ class bridge():
                 self.handleVulnerableAction(action)
         except Exception as e:
             print('error during simulation', e)
-    
+
+    # {"name":"Auction", "player":"N", value:"1D"}
     def handleAuctionAction(self, action):
-        pass
+        # start phase if first call
+        if self.currentPhase != 'Auction':
+            self.currentPhase = 'Auction'
+            # ensure fresh auction
+            self.auction = Auction()
+        finished = self.auction.add_call(action['player'], action['value'])
+        # record every call to raw auction tokens
+        # we'll snapshot full sequence at end
+        if finished:
+            # store completed auction
+            self.auctions.append([c['call'] for c in self.auction.calls])
+            # record contract & declarer
+            ctr = self.auction.contract()
+            self.contracts.append(ctr)
+            self.declarers.append(self.auction.declarer())
+            # clear phase
+            self.currentPhase = None
+        return
 
     def handleDealAction(self, action):
         for card in action['cards']:
