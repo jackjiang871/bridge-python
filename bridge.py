@@ -21,7 +21,7 @@ class bridge():
     # spades, hearts, diamonds, clubs
     suits = ['C','D','H','S']
     ranks = ['2','3','4','5','6','7','8','9','T','J','Q','K','A']
-    players = ['N','E','S','W']
+    seats = ['N','E','S','W']
 
     # Pass in actions to simulate each action for the match
     def __init__(self, actions=None):
@@ -31,6 +31,7 @@ class bridge():
         # game state
         self.actions = actions
         self.hands = {'N': [], 'S': [], 'E': [], 'W': []}
+        self.dealer = None
         self.gameIndex = 0
         self.currentPhase = None
         self.vulnerable = None
@@ -49,7 +50,7 @@ class bridge():
             # initialize a fresh match
             self.actions = []
             self.actions.append({ 'name': 'Vulnerable', 'value': 'None' })
-            self.actions.append({ 'name': 'Dealer', "value": random.choice([self.players]) })
+            self.actions.append({ 'name': 'Dealer', "value": random.choice([self.seats]) })
             self.actions.append(self.generateDeal())
         for action in actions:
             self.simulate(action)
@@ -73,31 +74,38 @@ class bridge():
     # {"name":"Auction", "player":"N", value:"1D"}
     # {"name":"Play", "player":"W", value"H3"}
     def simulate(self, action):
-        if action['name'] == 'Auction':
-            self.handleAuctionAction(action)
-        elif action['name'] == 'Deal':
-            self.handleDealAction(action)
-        elif action['name'] == 'Dealer':
-            self.handleDealerAction(action)
-        elif action['name'] == 'Play':
-            self.handlePlayAction(action)
-        elif action['name'] == 'Vulnerable':
-            self.handleVulnerableAction(action)
+        try:
+            if action['name'] == 'Auction':
+                self.handleAuctionAction(action)
+            elif action['name'] == 'Deal':
+                self.handleDealAction(action)
+            elif action['name'] == 'Dealer':
+                self.handleDealerAction(action)
+            elif action['name'] == 'Play':
+                self.handlePlayAction(action)
+            elif action['name'] == 'Vulnerable':
+                self.handleVulnerableAction(action)
+        except Exception as e:
+            print('error during simulation', e)
     
     def handleAuctionAction(self, action):
         pass
 
     def handleDealAction(self, action):
-        pass
+        for card in action['cards']:
+            self.hands[card['seat']].append(card['suit'] + card['rank'])
+        self.deals.append(action['cards'])
     
     def handleDealerAction(self, action):
+        self.dealer = action['value']
         self.dealers.append(action['value'])
 
     def handlePlayAction(self, action):
         pass
 
     def handleVulnerableAction(self, action):
-        self.vulnerable.append(action['value'])
+        self.vulnerable = action['value']
+        self.vulnerables.append(action['value'])
 
     def simulateGame(self, actions):
         for action in actions:
