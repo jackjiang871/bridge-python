@@ -28,15 +28,22 @@ class bridge():
         # setup cards, ordered by suit + rank
         self.cards = [s + r for s in self.suits for r in self.ranks]
 
+        # game state
         self.actions = actions
         self.hands = {'N': [], 'S': [], 'E': [], 'W': []}
         self.gameIndex = 0
-        self.states = [] # Vulnerable + Dealer of each game
+        self.currentPhase = None
+        self.vulnerable = None
+
+        # info required for pbn format
+        self.dealers = []
+        self.vulnerables = []
         self.deals = []
         self.auctions = []
         self.contracts = []
-        self.currentPhase = None
-        self.vulnerable = None
+        self.declarers = []
+        self.results = []
+        self.scores = []
 
         if self.actions == None:
             # initialize a fresh match
@@ -66,16 +73,31 @@ class bridge():
     # {"name":"Auction", "player":"N", value:"1D"}
     # {"name":"Play", "player":"W", value"H3"}
     def simulate(self, action):
-        if action['name'] == 'Vulnerable':
-            pass
-        elif action['name'] == 'Dealer':
-            pass
+        if action['name'] == 'Auction':
+            self.handleAuctionAction(action)
         elif action['name'] == 'Deal':
-            pass
-        elif action['name'] == 'Auction':
-            pass
+            self.handleDealAction(action)
+        elif action['name'] == 'Dealer':
+            self.handleDealerAction(action)
         elif action['name'] == 'Play':
-            pass
+            self.handlePlayAction(action)
+        elif action['name'] == 'Vulnerable':
+            self.handleVulnerableAction(action)
+    
+    def handleAuctionAction(self, action):
+        pass
+
+    def handleDealAction(self, action):
+        pass
+    
+    def handleDealerAction(self, action):
+        self.dealers.append(action['value'])
+
+    def handlePlayAction(self, action):
+        pass
+
+    def handleVulnerableAction(self, action):
+        self.vulnerable.append(action['value'])
 
     def simulateGame(self, actions):
         for action in actions:
