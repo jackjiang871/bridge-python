@@ -141,6 +141,39 @@ class Auction:
         self.calls.clear()
         self.last_bid_idx = None
 
+class Trick:
+    RANKS = ['2','3','4','5','6','7','8','9','T','J','Q','K','A']
+    """Manages one trick of four cards."""
+    def __init__(self, trump=None):
+        self.trump=trump  # e.g. 'S' or None
+        self.cards=[]     # list of {'player','card'} dicts
+
+    def add_card(self, player:str, card:str, hands:dict) -> bool:
+        # verify in hand
+        if card not in hands[player]:
+            raise ValueError(f"Player {player} does not have {card}")
+        # follow suit
+        suit=card[0]
+        if self.cards:
+            lead=self.cards[0]['card'][0]
+            if any(c[0]==lead for c in hands[player]) and suit!=lead:
+                raise ValueError(f"Must follow {lead} suit")
+        # remove from hand
+        hands[player].remove(card)
+        self.cards.append({'player':player,'card':card})
+        return len(self.cards)==4
+
+    def winner(self) -> str:
+        lead_suit=self.cards[0]['card'][0]
+        def val(entry):
+            s=entry['card'][0]; r=entry['card'][1]
+            rank_idx=self.RANKS.index(r)
+            # trump outranks
+            if self.trump and s==self.trump: return (2,rank_idx)
+            if s==lead_suit: return (1,rank_idx)
+            return (0,rank_idx)
+        best=max(self.cards,key=val)
+        return best['player']
 
 # bridge class that should work well with parsed pbn format
 # actions are mostly in the format of parsed pbn format, but one caveat is
@@ -253,7 +286,31 @@ class bridge():
         self.dealers.append(action['value'])
 
     def handlePlayAction(self, action):
-        pass
+        player=action['player']; card=action['value']
+        # start play phase/trick
+        if self.currentPhase!='Play':
+            self.currentPhase='Play'
+            # first leader is left of declarer
+            decl=self.declarers[-1]
+            idx=self.seats.index(decl)
+            self.leader=self.seats[(idx+1)%4]
+            trump=self.contracts[-1]['denomination']
+            self.currentTrick=Trick(trump)
+        # enforce turn
+        if player!=self.leader and len(self.currentTrick.cards)==0:
+            raise ValueError(f"{player} cannot lead, it's {self.leader}'s lead")
+        # play card
+        done=self.currentTrick.add_card(player,card,self.hands)
+        if done:
+            # record trick
+            self.tricks.append(self.currentTrick.cards.copy())
+            # determine winner
+            winner=self.currentTrick.winner()
+            self.leader=winner
+            # reset for next trick
+            trump=self.contracts[-1]['denomination']
+            self.currentTrick=Trick(trump)
+        return
 
     def handleVulnerableAction(self, action):
         self.vulnerable = action['value']
