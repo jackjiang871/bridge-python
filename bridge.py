@@ -53,17 +53,37 @@ class Auction:
         if call == 'Pass':
             return True
 
-        # Double: only immediately after an opponent's bid
+        # Double: can follow any number of Passes, as long as the
+        # last non-Pass call was a bid by an opponent
         if call == 'X':
-            if not self.calls or self.calls[-1]['call'] in ('Pass', 'X', 'XX'):
-                return False
-            return self.calls[-1]['player'] != player
+            # find last non-Pass call
+            for prev in reversed(self.calls):
+                if prev['call'] != 'Pass':
+                    last = prev
+                    break
+            else:
+                return False   # no bid to double
 
-        # Redouble: only immediately after opponent's Double
-        if call == 'XX':
-            if not self.calls or self.calls[-1]['call'] != 'X':
+            # must be a level+denom bid (not a Double or Redouble)
+            if len(last['call']) < 2 or not last['call'][0].isdigit():
                 return False
-            return self.calls[-1]['player'] != player
+
+            # must be your opponent
+            return last['player'] != player
+
+        # Redouble: same idea, but the last non-Pass must have been an X by opponent
+        if call == 'XX':
+            for prev in reversed(self.calls):
+                if prev['call'] != 'Pass':
+                    last = prev
+                    break
+            else:
+                return False   # no double to redouble
+
+            if last['call'] != 'X':
+                return False
+
+            return last['player'] != player
 
         # Otherwise must be a level+denomination bid
         if len(call) < 2 or not call[0].isdigit():

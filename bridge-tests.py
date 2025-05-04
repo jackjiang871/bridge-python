@@ -46,6 +46,8 @@ with open('parsed-41284.jsonl', 'r') as file:
 
 declarers = []
 actual_declarers = []
+contracts = []
+actual_contracts = []
 for game in games:
     # {"name":"Auction", "player":"N", value:"1D"}
     # {"name":"Play", "player":"W", value"H3"}
@@ -69,7 +71,12 @@ for game in games:
     b = Bridge(actions)
     declarers.append(b.declarers[0])
     actual_declarers.append(game['Declarer']['value'])
-    if b.declarers[0] != game['Declarer']['value']:
-        print('actions: ', auctionActions, b.declarers[0], game['Declarer']['value'])
+    contract = str(b.contracts[0]['level']) + str(b.contracts[0]['denomination']) + str(b.contracts[0]['risk'])
+    contracts.append(contract)
+    actual_contracts.append(game['Contract']['value'])
+    if (b.declarers[0] != game['Declarer']['value']) or (contract != game['Contract']['value']):
+        print('actions: ', auctionActions)
 print(declarers)
 print(actual_declarers)
+print(contracts)
+print(actual_contracts)
