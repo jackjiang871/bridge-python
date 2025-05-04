@@ -1,3 +1,5 @@
+# helpful link to view pbn: https://www.philallen.co.uk/PBNViewerVersion1_1c.html
+
 from bridge import Bridge
 import json
 
@@ -48,7 +50,11 @@ declarers = []
 actual_declarers = []
 contracts = []
 actual_contracts = []
-for game in games:
+plays_tricks_count = []
+results = []
+actual_results = []
+for gameIndex, game in enumerate(games):
+    print('game', gameIndex + 1)
     # {"name":"Auction", "player":"N", value:"1D"}
     # {"name":"Play", "player":"W", value"H3"}
     auctionActions = []
@@ -59,16 +65,35 @@ for game in games:
             continue
         auctionActions.append({'name': 'Auction', 'player': seats[seatIndex], 'value': token})
         seatIndex = (seatIndex + 1) % len(seats)
+    
+    actions = [game['Vulnerable'], game['Dealer'], game['Deal']] + auctionActions
+    b = Bridge(actions)
 
     playActions = []
     playTokens = game['Play']['tokens']
     seatIndex = seats.index(game['Play']['value'])
+    plays = []
+    tricks = 0
     for token in playTokens:
-        playActions.append({'name': 'Play', 'player': seats[seatIndex], 'value': token})
+        playAction = {'name': 'Play', 'player': seats[seatIndex], 'value': token}
+        plays.append(playAction)
         seatIndex = (seatIndex + 1) % len(seats)
+        if len(plays) == 4:
+            count = 4
+            while count:
+                i = 0
+                for index, item in enumerate(plays):
+                    if item.get("player") == b.tricks[-1].next_player():
+                        i = index
+                b.simulate(plays[i])
+                count -= 1
+            tricks += 1
+            plays = []
+    if tricks == 13:
+        print('complete tricks', gameIndex + 1)
+        results.append(b.results[0])
+        actual_results.append(game['Result']['value'])
 
-    actions = [game['Vulnerable'], game['Dealer'], game['Deal']] + auctionActions + playActions
-    b = Bridge(actions)
     declarers.append(b.declarers[0])
     actual_declarers.append(game['Declarer']['value'])
     contract = str(b.contracts[0]['level']) + str(b.contracts[0]['denomination']) + str(b.contracts[0]['risk'])
@@ -80,3 +105,5 @@ print(declarers)
 print(actual_declarers)
 print(contracts)
 print(actual_contracts)
+print(results)
+print(actual_results)

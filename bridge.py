@@ -191,37 +191,63 @@ class Auction:
 
 class Trick:
     RANKS = ['2','3','4','5','6','7','8','9','T','J','Q','K','A']
-    """Manages one trick of four cards."""
-    def __init__(self, trump=None):
-        self.trump=trump  # e.g. 'S' or None
-        self.cards=[]     # list of {'player','card'} dicts
+    SEATS = ['N','E','S','W']
+    """Manages one trick of four cards, enforcing turn order and follow‐suit."""
+    def __init__(self, trump: str=None, leader: str=None):
+        self.trump = trump            # e.g. 'S' or None
+        self.leader = leader          # e.g. 'N','E','S','W'
+        self.cards = []               # list of {'player','card'} dicts
+        print('leader', self.leader, 'trump', self.trump)
 
-    def add_card(self, player:str, card:str, hands:dict) -> bool:
-        # verify in hand
+    def next_player(self) -> str:
+        """Who should play next in this trick?"""
+        idx = self.SEATS.index(self.leader)
+        # offset by how many cards have already been played
+        return self.SEATS[(idx + len(self.cards)) % 4]
+
+    def add_card(self, player: str, card: str, hands: dict) -> bool:
+        # 1) correct turn
+        expected = self.next_player()
+        if player != expected:
+            # print(player, expected, self.cards, self.SEATS.index(self.leader), self.leader, self.SEATS[(self.SEATS.index(self.leader) + len(self.cards)) % 4])
+            raise ValueError(f"It’s {expected}’s turn, not {player}")
+
+        # 2) verify card in hand
         if card not in hands[player]:
             raise ValueError(f"Player {player} does not have {card}")
-        # follow suit
-        suit=card[0]
+
+        # 3) follow suit if possible
+        suit = card[0]
         if self.cards:
-            lead=self.cards[0]['card'][0]
-            if any(c[0]==lead for c in hands[player]) and suit!=lead:
-                raise ValueError(f"Must follow {lead} suit")
-        # remove from hand
+            lead_suit = self.cards[0]['card'][0]
+            # if you have any lead‐suit cards, you must follow
+            if any(c[0] == lead_suit for c in hands[player]) and suit != lead_suit:
+                print(player, hands[player])
+                raise ValueError(f"Must follow {lead_suit} suit")
+
+        # 4) play the card
         hands[player].remove(card)
-        self.cards.append({'player':player,'card':card})
-        return len(self.cards)==4
+        self.cards.append({'player': player, 'card': card})
+        return len(self.cards) == 4
 
     def winner(self) -> str:
-        lead_suit=self.cards[0]['card'][0]
-        def val(entry):
-            s=entry['card'][0]; r=entry['card'][1]
-            rank_idx=self.RANKS.index(r)
-            # trump outranks
-            if self.trump and s==self.trump: return (2,rank_idx)
-            if s==lead_suit: return (1,rank_idx)
-            return (0,rank_idx)
-        best=max(self.cards,key=val)
-        return best['player']
+        """Return who won the completed trick."""
+        lead_suit = self.cards[0]['card'][0]
+
+        def score(entry):
+            s, r = entry['card'][0], entry['card'][1]
+            rank_value = self.RANKS.index(r)
+            # trump outranks everything
+            if self.trump and s == self.trump:
+                return (2, rank_value)
+            # next highest is following the lead suit
+            if s == lead_suit:
+                return (1, rank_value)
+            # else, you’re out of suit and not trump
+            return (0, rank_value)
+
+        winner_entry = max(self.cards, key=score)
+        return winner_entry['player']
 
 # bridge class that should work well with parsed pbn format
 # actions are mostly in the format of parsed pbn format, but one caveat is
@@ -246,6 +272,7 @@ class Bridge():
         self.gameIndex = 0
         self.currentPhase = None
         self.vulnerable = None
+        self.currentTrick = None
 
         # auction state
         self.auction = None
@@ -257,6 +284,7 @@ class Bridge():
         self.auctions = []
         self.contracts = []
         self.declarers = []
+        self.tricks = []
         self.results = []
         self.scores = []
 
@@ -322,8 +350,16 @@ class Bridge():
             ctr = self.auction.contract()
             self.contracts.append(ctr)
             self.declarers.append(self.auction.declarer())
-            # clear phase
-            self.currentPhase = None
+            # go to play phase
+            self.currentPhase = 'Play'
+            decl = self.declarers[-1]
+            decl_idx = self.seats.index(decl)
+            # leader is left of declarer
+            self.leader = self.seats[(decl_idx + 1) % 4]
+            trump = self.contracts[-1]['denomination']
+            self.currentTrick = Trick(trump=trump, leader=self.leader)
+            self.tricks.append(self.currentTrick)
+            self.results.append(0)
         return
 
     def handleDealAction(self, action):
@@ -336,31 +372,26 @@ class Bridge():
         self.dealers.append(action['value'])
 
     def handlePlayAction(self, action):
-        player=action['player']; card=action['value']
-        # start play phase/trick
-        if self.currentPhase!='Play':
-            self.currentPhase='Play'
-            # first leader is left of declarer
-            decl=self.declarers[-1]
-            idx=self.seats.index(decl)
-            self.leader=self.seats[(idx+1)%4]
-            trump=self.contracts[-1]['denomination']
-            self.currentTrick=Trick(trump)
-        # enforce turn
-        if player!=self.leader and len(self.currentTrick.cards)==0:
-            raise ValueError(f"{player} cannot lead, it's {self.leader}'s lead")
-        # play card
-        done=self.currentTrick.add_card(player,card,self.hands)
-        if done:
-            # record trick
-            self.tricks.append(self.currentTrick.cards.copy())
-            # determine winner
-            winner=self.currentTrick.winner()
-            self.leader=winner
-            # reset for next trick
-            trump=self.contracts[-1]['denomination']
-            self.currentTrick=Trick(trump)
-        return
+        player, card = action['player'], action['value']
+
+        # attempt to add the card (will enforce turn + follow‐suit)
+        print('play card', player, card)
+        trick_done = self.currentTrick.add_card(player, card, self.hands)
+
+        if trick_done:
+            # determine who wins, and make them the new leader
+            winner = self.currentTrick.winner()
+            self.leader = winner
+            print('winner', winner)
+            teams = ['NS', 'EW']
+            declarer = self.declarers[-1][0]
+            if (winner in teams[0] and declarer in teams[0]) or (winner in teams[1] and declarer in teams[1]):
+                self.results[-1] += 1
+
+            # start the next trick, with the same trump but new leader
+            trump = self.contracts[-1]['denomination']
+            self.currentTrick = Trick(trump=trump, leader=self.leader)
+            self.tricks.append(self.currentTrick)
 
     def handleVulnerableAction(self, action):
         self.vulnerable = action['value']
