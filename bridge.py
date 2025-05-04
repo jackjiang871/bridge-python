@@ -73,6 +73,7 @@ class Auction:
         Record a new call. Raises ValueError if invalid.
         Returns True if auction is now finished, False otherwise.
         """
+        print('bid call', player, call)
         if not self.is_valid_call(player, call):
             raise ValueError(f"Illegal call {call!r} by {player}")
 
@@ -125,21 +126,34 @@ class Auction:
 
     def declarer(self) -> str:
         """
-        Returns the seat ('N','E','S','W') of the player who first bid the final contract.
+        Returns the seat ('N','E','S','W') of the first player in the
+        declaring partnership who bid the final contract's denomination.
         """
+        if not self.is_finished():
+            raise RuntimeError("Auction not finished yet")
+
         ctr = self.contract()
+        # pass‑out
         if ctr['level'] == 0:
             return None
-        bid_str = f"{ctr['level']}{ctr['denomination']}"
-        for c in self.calls:
-            if c['call'] == bid_str:
-                return c['player']
-        return None
 
-    def reset(self):
-        """Clear the auction state to start anew."""
-        self.calls.clear()
-        self.last_bid_idx = None
+        # determine which side won the contract
+        last = self.calls[self.last_bid_idx]
+        winning_side = {'N','S'} if last['player'] in ('N','S') else {'E','W'}
+
+        suit = ctr['denomination']  # e.g. 'S', 'H', 'NT', etc.
+
+        # find the first bid of that suit by the winning side
+        for c in self.calls:
+            bid = c['call']
+            if bid in ('Pass','X','XX'):
+                continue
+            # extract this bid's denomination (everything after the level digit)
+            this_suit = bid[1:]
+            if this_suit == suit and c['player'] in winning_side:
+                return c['player']
+
+        return None
 
 class Trick:
     RANKS = ['2','3','4','5','6','7','8','9','T','J','Q','K','A']
@@ -180,7 +194,7 @@ class Trick:
 # auction and play input formats are different.
 # You need to first convert the parsed pbn format's auction and play params into 'live' auction and play
 # because this class will parse each action one by one and determine if its legal or not
-class bridge():
+class Bridge():
     # spades, hearts, diamonds, clubs
     suits = ['C','D','H','S']
     ranks = ['2','3','4','5','6','7','8','9','T','J','Q','K','A']
@@ -335,6 +349,4 @@ class bridge():
             # seems complicated but can figure out after we finish making auction and play phase
             pass
 
-b = bridge()
-print(b.deal)
-print(b.hands)
+b = Bridge()
