@@ -10,6 +10,17 @@ import random
 # -> RESULT {"type":"tag","name":"Result","value":"9"}
 # -> SCORE {"type":"tag","name":"Score","value":"NS 50"}
 
+# all denominations in order
+DENOMS = ['C', 'D', 'H', 'S', 'NT']
+
+# generate 1C–7NT
+BIDS = [f"{level}{denom}" for level in range(1, 8) for denom in DENOMS]
+
+VALID_AUCTION_ACTIONS = set(
+    ['Pass', 'X', 'XX']  # pass, double, redouble
+    + BIDS               # all valid level+denom bids
+)
+
 class Auction:
     """
     Encapsulates a contract bridge auction sequence:
@@ -86,15 +97,18 @@ class Auction:
         return self.is_finished()
 
     def is_finished(self) -> bool:
-        """True if auction has ended: pass-out or three passes after last bid"""
-        # Pass-out: first four calls are Pass
+        """True if auction has ended: pass‑out or three consecutive Passes after last real bid."""
+        # 1) Pass‑out: dealer + 3 others all Pass
         if self.last_bid_idx is None and len(self.calls) >= 4:
             if all(c['call'] == 'Pass' for c in self.calls[:4]):
                 return True
 
-        # Normal: at least three calls after the last bid
+        # 2) Normal close: need at least 3 consecutive Pass calls after the last bid
         if self.last_bid_idx is not None:
-            if len(self.calls) - self.last_bid_idx >= 4:
+            # extract calls _after_ the last real bid
+            after = [c['call'] for c in self.calls[self.last_bid_idx+1:]]
+            # check that the last three are all Pass
+            if len(after) >= 3 and all(call == 'Pass' for call in after[-3:]):
                 return True
 
         return False
@@ -276,6 +290,8 @@ class Bridge():
             self.currentPhase = 'Auction'
             # ensure fresh auction
             self.auction = Auction()
+        if action['value'] not in VALID_AUCTION_ACTIONS:
+            return
         finished = self.auction.add_call(action['player'], action['value'])
         # record every call to raw auction tokens
         # we'll snapshot full sequence at end

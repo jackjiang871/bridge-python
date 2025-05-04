@@ -7,6 +7,17 @@ games = []
 
 TARGET = {'Vulnerable', 'Dealer', 'Deal', 'Declarer', 'Contract', 'Result', 'Score', 'Auction', 'Play'}
 
+# all denominations in order
+DENOMS = ['C', 'D', 'H', 'S', 'NT']
+
+# generate 1C–7NT
+BIDS = [f"{level}{denom}" for level in range(1, 8) for denom in DENOMS]
+
+VALID_AUCTION_ACTIONS = set(
+    ['Pass', 'X', 'XX']  # pass, double, redouble
+    + BIDS               # all valid level+denom bids
+)
+
 # Load in games from parsed pbn file
 with open('parsed-41284.jsonl', 'r') as file:
     current_game = None
@@ -42,6 +53,8 @@ for game in games:
     auctionTokens = game['Auction']['tokens']
     seatIndex = seats.index(game['Auction']['value'])
     for token in auctionTokens:
+        if token not in VALID_AUCTION_ACTIONS:
+            continue
         auctionActions.append({'name': 'Auction', 'player': seats[seatIndex], 'value': token})
         seatIndex = (seatIndex + 1) % len(seats)
 
@@ -49,12 +62,14 @@ for game in games:
     playTokens = game['Play']['tokens']
     seatIndex = seats.index(game['Play']['value'])
     for token in playTokens:
-        auctionActions.append({'name': 'Play', 'player': seats[seatIndex], 'value': token})
+        playActions.append({'name': 'Play', 'player': seats[seatIndex], 'value': token})
         seatIndex = (seatIndex + 1) % len(seats)
 
     actions = [game['Vulnerable'], game['Dealer'], game['Deal']] + auctionActions + playActions
     b = Bridge(actions)
     declarers.append(b.declarers[0])
     actual_declarers.append(game['Declarer']['value'])
+    if b.declarers[0] != game['Declarer']['value']:
+        print('actions: ', auctionActions, b.declarers[0], game['Declarer']['value'])
 print(declarers)
 print(actual_declarers)
