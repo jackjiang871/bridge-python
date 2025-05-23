@@ -1,6 +1,7 @@
 # helpful link to view pbn: https://www.philallen.co.uk/PBNViewerVersion1_1c.html
 import os
-from bridge import Bridge
+# from bridge import Bridge
+from bridgeClean import Bridge
 import json
 
 seats = ['N','E','S','W']
