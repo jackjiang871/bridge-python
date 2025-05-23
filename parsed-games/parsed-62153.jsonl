@@ -1,0 +1,623 @@
+{"type":"directive","text":"PBN 2.1"}
+{"type":"directive","text":"File converted with \"LinToPbnConverter\" (Version 1.3)"}
+{"type":"directive","text":"(c) J.L PELISSON 2009  : pelissonjl@aol.com"}
+{"type":"directive","text":"Free for a non commercial use only"}
+{"type":"directive","text":""}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"HomeTeam","value":"Wolfson"}
+{"type":"tag","name":"VisitTeam","value":"Nickell"}
+{"type":"tag","name":"Board","value":"1"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:.AQJ832.QJT7.A98 T743.T9.AK98.T62 A982.5.543.KQJ73 KQJ65.K764.62.54","cards":[{"seat":"N","suit":"H","rank":"A"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"Q"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"8"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"9"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"K"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"8"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"6"},{"seat":"E","suit":"C","rank":"2"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"3"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"5"},{"seat":"W","suit":"C","rank":"4"}]}
+{"type":"comment","text":"                   Nord\r\n                   -\r\n                   ADV832\r\n                   DVX7\r\n                   A98\r\n  Ouest                            Est\r\n  RDV65                            X743\r\n  R764                             X9\r\n  62                               AR98\r\n  54                               X62\r\n                   Sud\r\n                   A982\r\n                   5\r\n                   543\r\n                   RDV73\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"8"}
+{"type":"tag","name":"Score","value":"NS -50"}
+{"type":"tag","name":"Auction","value":"N","section":["1H    Pass  1S    Pass","2D    Pass  2NT   Pass","3H    Pass  3NT   Pass","Pass  Pass"],"tokens":["1H","Pass","1S","Pass","2D","Pass","2NT","Pass","3H","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["D6 DQ DK D3","S6 H2 ST S2","SJ H3 S7 S8","SK H8 S3 SA","C4 CA C2 C3","C5 C8 C6 CK","S5 C9 CT CQ","D2 D7 D8 CJ","H4 HJ D9 C7","*"],"tokens":["D6","DQ","DK","D3","S6","H2","ST","S2","SJ","H3","S7","S8","SK","H8","S3","SA","C4","CA","C2","C3","C5","C8","C6","CK","S5","C9","CT","CQ","D2","D7","D8","CJ","H4","HJ","D9","C7","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"1"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:.AQJ832.QJT7.A98 T743.T9.AK98.T62 A982.5.543.KQJ73 KQJ65.K764.62.54","cards":[{"seat":"N","suit":"H","rank":"A"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"Q"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"8"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"9"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"K"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"8"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"6"},{"seat":"E","suit":"C","rank":"2"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"3"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"5"},{"seat":"W","suit":"C","rank":"4"}]}
+{"type":"comment","text":"                   Nord\r\n                   -\r\n                   ADV832\r\n                   DVX7\r\n                   A98\r\n  Ouest                            Est\r\n  RDV65                            X743\r\n  R764                             X9\r\n  62                               AR98\r\n  54                               X62\r\n                   Sud\r\n                   A982\r\n                   5\r\n                   543\r\n                   RDV73\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"8"}
+{"type":"tag","name":"Score","value":"NS -50"}
+{"type":"tag","name":"Auction","value":"N","section":["1H    Pass  1NT   Pass","2D    Pass  2NT   Pass","3H    Pass  3NT   Pass","Pass  Pass"],"tokens":["1H","Pass","1NT","Pass","2D","Pass","2NT","Pass","3H","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["SJ H2 S7 S2","S6 H3 ST S8","S5 H8 S4 SA","C4 CA C2 C3","C5 C8 C6 CK","H4 C9 CT CQ","D6 D7 D8 CJ","D2 DT D9 C7","H6 HJ H9 H5","H7 HA HT D3","SK DJ DK D4","*"],"tokens":["SJ","H2","S7","S2","S6","H3","ST","S8","S5","H8","S4","SA","C4","CA","C2","C3","C5","C8","C6","CK","H4","C9","CT","CQ","D6","D7","D8","CJ","D2","DT","D9","C7","H6","HJ","H9","H5","H7","HA","HT","D3","SK","DJ","DK","D4","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"2"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:Q65.QJ96.AQ42.J5 K92.752.T7.AQ842 AT3.A83.K83.T973 J874.KT4.J965.K6","cards":[{"seat":"E","suit":"S","rank":"Q"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"J"},{"seat":"E","suit":"H","rank":"9"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"T"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"C","rank":"A"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"8"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"S","rank":"3"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"8"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"7"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"7"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"6"}]}
+{"type":"comment","text":"                   Nord\r\n                   V874\r\n                   RX4\r\n                   V965\r\n                   R6\r\n  Ouest                            Est\r\n  AX3                              D65\r\n  A83                              DV96\r\n  R83                              AD42\r\n  X973                             V5\r\n                   Sud\r\n                   R92\r\n                   752\r\n                   X7\r\n                   AD842\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"1NT","level":1,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"8"}
+{"type":"tag","name":"Score","value":"NS -120"}
+{"type":"tag","name":"Auction","value":"E","section":["1D    Pass  1NT   Pass","Pass  Pass"],"tokens":["1D","Pass","1NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"N","section":["S4 S5 S9 ST","HK H6 H2 H3","SJ SQ SK SA","H4 H9 H5 HA","HT HJ H7 H8","C6 HQ C2 S3","-  D2 D7 DK","*"],"tokens":["S4","S5","S9","ST","HK","H6","H2","H3","SJ","SQ","SK","SA","H4","H9","H5","HA","HT","HJ","H7","H8","C6","HQ","C2","S3","-","D2","D7","DK","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"2"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:Q65.QJ96.AQ42.J5 K92.752.T7.AQ842 AT3.A83.K83.T973 J874.KT4.J965.K6","cards":[{"seat":"E","suit":"S","rank":"Q"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"J"},{"seat":"E","suit":"H","rank":"9"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"T"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"C","rank":"A"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"8"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"S","rank":"3"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"8"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"7"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"7"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"6"}]}
+{"type":"comment","text":"                   Nord\r\n                   V874\r\n                   RX4\r\n                   V965\r\n                   R6\r\n  Ouest                            Est\r\n  AX3                              D65\r\n  A83                              DV96\r\n  R83                              AD42\r\n  X973                             V5\r\n                   Sud\r\n                   R92\r\n                   752\r\n                   X7\r\n                   AD842\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"1NT","level":1,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS -150"}
+{"type":"tag","name":"Auction","value":"E","section":["1D  =1=    Pass  1NT   Pass","Pass  Pass"],"tokens":["1D","=1=","Pass","1NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:could be zero diamonds","number":1,"text":"could be zero diamonds"}
+{"type":"tag","name":"Play","value":"N","section":["S4 S5 S9 ST","HK H6 H2 H3","SJ S6 S2 SA","H4 H9 H5 HA","HT HJ H7 H8","D5 HQ D7 S3","*"],"tokens":["S4","S5","S9","ST","HK","H6","H2","H3","SJ","S6","S2","SA","H4","H9","H5","HA","HT","HJ","H7","H8","D5","HQ","D7","S3","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"3"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:.K842.AKQ987.K76 874.J653.32.AT84 QT95.T97.JT6.QJ5 AKJ632.AQ.54.932","cards":[{"seat":"S","suit":"H","rank":"K"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"8"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"6"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"8"},{"seat":"W","suit":"C","rank":"4"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"5"},{"seat":"E","suit":"S","rank":"A"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"3"},{"seat":"E","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   DX95\r\n                   X97\r\n                   VX6\r\n                   DV5\r\n  Ouest                            Est\r\n  874                              ARV632\r\n  V653                             AD\r\n  32                               54\r\n  AX84                             932\r\n                   Sud\r\n                   -\r\n                   R842\r\n                   ARD987\r\n                   R76\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"3D","level":3,"denomination":"D","risk":""}
+{"type":"tag","name":"Result","value":"10"}
+{"type":"tag","name":"Score","value":"NS 130"}
+{"type":"tag","name":"Auction","value":"S","section":["1D    Pass  1S    Pass","3D    Pass  Pass  Pass"],"tokens":["1D","Pass","1S","Pass","3D","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["S4 ST SJ D8","D2 D6 D4 DQ","D3 DT D5 D7","H6 HT HA H2","*"],"tokens":["S4","ST","SJ","D8","D2","D6","D4","DQ","D3","DT","D5","D7","H6","HT","HA","H2","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"3"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:.K842.AKQ987.K76 874.J653.32.AT84 QT95.T97.JT6.QJ5 AKJ632.AQ.54.932","cards":[{"seat":"S","suit":"H","rank":"K"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"8"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"6"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"8"},{"seat":"W","suit":"C","rank":"4"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"5"},{"seat":"E","suit":"S","rank":"A"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"3"},{"seat":"E","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   DX95\r\n                   X97\r\n                   VX6\r\n                   DV5\r\n  Ouest                            Est\r\n  874                              ARV632\r\n  V653                             AD\r\n  32                               54\r\n  AX84                             932\r\n                   Sud\r\n                   -\r\n                   R842\r\n                   ARD987\r\n                   R76\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"3D","level":3,"denomination":"D","risk":""}
+{"type":"tag","name":"Result","value":"10"}
+{"type":"tag","name":"Score","value":"NS 130"}
+{"type":"tag","name":"Auction","value":"S","section":["1D    Pass  1S    Pass","2H    Pass  2S  =1=    Pass","3D    Pass  Pass  Pass"],"tokens":["1D","Pass","1S","Pass","2H","Pass","2S","=1=","Pass","3D","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:either natural or wants out","number":1,"text":"either natural or wants out"}
+{"type":"tag","name":"Play","value":"W","section":["S4 ST SJ D8","C4 C5 C2 CK","CA CJ C9 C7","S7 S9 SA DQ","C8 CQ C3 C6","H3 HT HA H4","S8 S5 S2 D9","D2 DJ D4 D7","H5 H9 HQ HK","*"],"tokens":["S4","ST","SJ","D8","C4","C5","C2","CK","CA","CJ","C9","C7","S7","S9","SA","DQ","C8","CQ","C3","C6","H3","HT","HA","H4","S8","S5","S2","D9","D2","DJ","D4","D7","H5","H9","HQ","HK","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"4"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:973.A632.84.AJ96 AKQJT.J8.T5.KQ43 6542.K4.KJ6.T875 8.QT975.AQ9732.2","cards":[{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"3"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"6"},{"seat":"N","suit":"S","rank":"A"},{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"4"},{"seat":"N","suit":"C","rank":"3"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"4"},{"seat":"E","suit":"D","rank":"K"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"8"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"D","rank":"2"},{"seat":"S","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   ARDVX\r\n                   V8\r\n                   X5\r\n                   RD43\r\n  Ouest                            Est\r\n  973                              6542\r\n  A632                             R4\r\n  84                               RV6\r\n  AV96                             X875\r\n                   Sud\r\n                   8\r\n                   DX975\r\n                   AD9732\r\n                   2\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"11"}
+{"type":"tag","name":"Score","value":"NS 660"}
+{"type":"tag","name":"Auction","value":"W","section":["Pass  1S    Pass  1NT","Pass  2C    Pass  2D","Pass  2S    Pass  3H","Pass  3NT   Pass  Pass","Pass"],"tokens":["Pass","1S","Pass","1NT","Pass","2C","Pass","2D","Pass","2S","Pass","3H","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["CA C3 C8 C2","S9 ST S4 S8","S3 SJ S2 D2","S7 SQ S5 D3","H2 SK S6 D7","H3 H8 H4 H5","D4 SA D6 H7","CJ CK C5 H9","C6 CQ C7 HQ","D8 DT DK DA","-  -  -  DQ","*"],"tokens":["CA","C3","C8","C2","S9","ST","S4","S8","S3","SJ","S2","D2","S7","SQ","S5","D3","H2","SK","S6","D7","H3","H8","H4","H5","D4","SA","D6","H7","CJ","CK","C5","H9","C6","CQ","C7","HQ","D8","DT","DK","DA","-","-","-","DQ","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"4"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:973.A632.84.AJ96 AKQJT.J8.T5.KQ43 6542.K4.KJ6.T875 8.QT975.AQ9732.2","cards":[{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"3"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"6"},{"seat":"N","suit":"S","rank":"A"},{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"4"},{"seat":"N","suit":"C","rank":"3"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"4"},{"seat":"E","suit":"D","rank":"K"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"8"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"D","rank":"2"},{"seat":"S","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   ARDVX\r\n                   V8\r\n                   X5\r\n                   RD43\r\n  Ouest                            Est\r\n  973                              6542\r\n  A632                             R4\r\n  84                               RV6\r\n  AV96                             X875\r\n                   Sud\r\n                   8\r\n                   DX975\r\n                   AD9732\r\n                   2\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"2H","level":2,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"10"}
+{"type":"tag","name":"Score","value":"NS 170"}
+{"type":"tag","name":"Auction","value":"W","section":["Pass  1S    Pass  1NT","Pass  2C    Pass  2D","Pass  2H    Pass  Pass","Pass"],"tokens":["Pass","1S","Pass","1NT","Pass","2C","Pass","2D","Pass","2H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["C7 C2 CA C4","C5 D2 C6 CK","H4 H5 HA H8","CT D3 C9 CQ","HK H7 H2 HJ","C8 H9 CJ C3","*"],"tokens":["C7","C2","CA","C4","C5","D2","C6","CK","H4","H5","HA","H8","CT","D3","C9","CQ","HK","H7","H2","HJ","C8","H9","CJ","C3","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"5"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:83.KT95.A4.AJ932 T.8643.QJT53.Q75 K9642.AQ72.9.K64 AQJ75.J.K8762.T8","cards":[{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"3"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"H","rank":"4"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"T"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"A"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"7"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"8"}]}
+{"type":"comment","text":"                   Nord\r\n                   83\r\n                   RX95\r\n                   A4\r\n                   AV932\r\n  Ouest                            Est\r\n  ADV75                            X\r\n  V                                8643\r\n  R8762                            DVX53\r\n  X8                               D75\r\n                   Sud\r\n                   R9642\r\n                   AD72\r\n                   9\r\n                   R64\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"4H","level":4,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"10"}
+{"type":"tag","name":"Score","value":"NS 620"}
+{"type":"tag","name":"Auction","value":"N","section":["1C    Pass  1S    Pass","1NT   Pass  2D    Pass","2H    Pass  4H    Pass","Pass  Pass"],"tokens":["1C","Pass","1S","Pass","1NT","Pass","2D","Pass","2H","Pass","4H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["DQ D9 D8 DA","H3 HQ HJ H5","CQ C4 C8 CJ","H4 H2 D7 H9","D5 HA D2 D4","H6 H7 S7 HK","H8 S4 S5 HT","C7 CK CT C2","*"],"tokens":["DQ","D9","D8","DA","H3","HQ","HJ","H5","CQ","C4","C8","CJ","H4","H2","D7","H9","D5","HA","D2","D4","H6","H7","S7","HK","H8","S4","S5","HT","C7","CK","CT","C2","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"5"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:83.KT95.A4.AJ932 T.8643.QJT53.Q75 K9642.AQ72.9.K64 AQJ75.J.K8762.T8","cards":[{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"3"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"H","rank":"4"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"T"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"A"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"7"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"8"}]}
+{"type":"comment","text":"                   Nord\r\n                   83\r\n                   RX95\r\n                   A4\r\n                   AV932\r\n  Ouest                            Est\r\n  ADV75                            X\r\n  V                                8643\r\n  R8762                            DVX53\r\n  X8                               D75\r\n                   Sud\r\n                   R9642\r\n                   AD72\r\n                   9\r\n                   R64\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"5DX","level":5,"denomination":"D","risk":"X"}
+{"type":"tag","name":"Result","value":"8"}
+{"type":"tag","name":"Score","value":"NS 500"}
+{"type":"tag","name":"Auction","value":"N","section":["1C    2D    2S    5D","Pass  Pass  X     Pass","Pass  Pass"],"tokens":["1C","2D","2S","5D","Pass","Pass","X","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"S","section":["D9 D2 DA D3","C4 D6 D4 D5","C6 C8 C9 C5","CK CT C3 C7","HA HJ H5 H3","H2 D7 H9 H4","S2 SA S3 ST","SK SQ S8 CQ","*"],"tokens":["D9","D2","DA","D3","C4","D6","D4","D5","C6","C8","C9","C5","CK","CT","C3","C7","HA","HJ","H5","H3","H2","D7","H9","H4","S2","SA","S3","ST","SK","SQ","S8","CQ","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"6"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:T83.KQ75.J843.K4 K6.AT8.AQT75.Q72 AJ74.J632.K.AT65 Q952.94.962.J983","cards":[{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"8"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"4"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"H","rank":"A"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"T"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"6"},{"seat":"W","suit":"C","rank":"5"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"3"}]}
+{"type":"comment","text":"                   Nord\r\n                   D952\r\n                   94\r\n                   962\r\n                   V983\r\n  Ouest                            Est\r\n  AV74                             X83\r\n  V632                             RD75\r\n  R                                V843\r\n  AX65                             R4\r\n                   Sud\r\n                   R6\r\n                   AX8\r\n                   ADX75\r\n                   D72\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"1NT","level":1,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"6"}
+{"type":"tag","name":"Score","value":"NS -50"}
+{"type":"tag","name":"Auction","value":"E","section":["Pass  1NT   Pass  Pass","Pass"],"tokens":["Pass","1NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["H6 H4 HQ H8","HJ H9 H5 HT","H3 C3 H7 HA","DK D2 D4 DA","S4 S2 S3 SK","SA S5 S8 S6","H2 D6 HK D5","C5 D9 DJ DQ","C6 C8 CK CQ","S7 SQ ST C2","-  S9 D3 -","*"],"tokens":["H6","H4","HQ","H8","HJ","H9","H5","HT","H3","C3","H7","HA","DK","D2","D4","DA","S4","S2","S3","SK","SA","S5","S8","S6","H2","D6","HK","D5","C5","D9","DJ","DQ","C6","C8","CK","CQ","S7","SQ","ST","C2","-","S9","D3","-","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"6"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:T83.KQ75.J843.K4 K6.AT8.AQT75.Q72 AJ74.J632.K.AT65 Q952.94.962.J983","cards":[{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"8"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"4"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"H","rank":"A"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"T"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"6"},{"seat":"W","suit":"C","rank":"5"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"3"}]}
+{"type":"comment","text":"                   Nord\r\n                   D952\r\n                   94\r\n                   962\r\n                   V983\r\n  Ouest                            Est\r\n  AV74                             X83\r\n  V632                             RD75\r\n  R                                V843\r\n  AX65                             R4\r\n                   Sud\r\n                   R6\r\n                   AX8\r\n                   ADX75\r\n                   D72\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"1NT","level":1,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"6"}
+{"type":"tag","name":"Score","value":"NS -50"}
+{"type":"tag","name":"Auction","value":"E","section":["Pass  1NT   Pass  Pass","Pass"],"tokens":["Pass","1NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["H2 H4 HQ H8","H3 H9 H5 HA","DK D2 D3 DA","C6 D9 DJ D7","SA S2 S3 S6","S4 S5 S8 SK","C5 D6 D4 DQ","S7 C3 D8 DT","SJ C8 ST D5","H6 S9 HK HT","CA C9 C4 C7","HJ CJ H7 C2","*"],"tokens":["H2","H4","HQ","H8","H3","H9","H5","HA","DK","D2","D3","DA","C6","D9","DJ","D7","SA","S2","S3","S6","S4","S5","S8","SK","C5","D6","D4","DQ","S7","C3","D8","DT","SJ","C8","ST","D5","H6","S9","HK","HT","CA","C9","C4","C7","HJ","CJ","H7","C2","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"7"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:AQ64.K95.AK4.642 JT8.A42.Q96.T973 97.Q76.JT8532.K8 K532.JT83.7.AQJ5","cards":[{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"K"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"7"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"S","rank":"7"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"D","rank":"3"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"8"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"J"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"5"}]}
+{"type":"comment","text":"                   Nord\r\n                   97\r\n                   D76\r\n                   VX8532\r\n                   R8\r\n  Ouest                            Est\r\n  VX8                              R532\r\n  A42                              VX83\r\n  D96                              7\r\n  X973                             ADV5\r\n                   Sud\r\n                   AD64\r\n                   R95\r\n                   AR4\r\n                   642\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"3H","level":3,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"7"}
+{"type":"tag","name":"Score","value":"NS 200"}
+{"type":"tag","name":"Auction","value":"S","section":["1NT   Pass  2NT   Pass","3D  =1=    Pass  Pass  X","Pass  3H    Pass  Pass","Pass"],"tokens":["1NT","Pass","2NT","Pass","3D","=1=","Pass","Pass","X","Pass","3H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:!","number":1,"text":"!"}
+{"type":"tag","name":"Play","value":"N","section":["DJ D7 DA D6","HQ H3 H5 H2","S9 S2 SQ S8","S7 S3 SA ST","H6 S5 S4 SJ","C8 CA C2 C3","H7 HJ H9 H4","D2 H8 HK HA","*"],"tokens":["DJ","D7","DA","D6","HQ","H3","H5","H2","S9","S2","SQ","S8","S7","S3","SA","ST","H6","S5","S4","SJ","C8","CA","C2","C3","H7","HJ","H9","H4","D2","H8","HK","HA","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"7"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:AQ64.K95.AK4.642 JT8.A42.Q96.T973 97.Q76.JT8532.K8 K532.JT83.7.AQJ5","cards":[{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"K"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"7"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"S","rank":"7"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"D","rank":"3"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"8"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"J"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"5"}]}
+{"type":"comment","text":"                   Nord\r\n                   97\r\n                   D76\r\n                   VX8532\r\n                   R8\r\n  Ouest                            Est\r\n  VX8                              R532\r\n  A42                              VX83\r\n  D96                              7\r\n  X973                             ADV5\r\n                   Sud\r\n                   AD64\r\n                   R95\r\n                   AR4\r\n                   642\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"3D","level":3,"denomination":"D","risk":""}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS 110"}
+{"type":"tag","name":"Auction","value":"S","section":["1NT   Pass  3C  =1=    X =2=","Pass  Pass  3D    Pass","Pass  Pass"],"tokens":["1NT","Pass","3C","=1=","X","=2=","Pass","Pass","3D","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:diamonds","number":1,"text":"diamonds"}
+{"type":"tag","name":"Note","value":"2:no clubs stopper","number":2,"text":"no clubs stopper"}
+{"type":"tag","name":"Play","value":"E","section":["HJ H5 HA H7","CA C2 CT CK","CQ C4 C3 C8","CJ C6 C7 D2","D7 DA D6 D3","C5 DK D9 D5","H3 HK H4 H6","H8 H9 H2 HQ","-  -  -  DJ","*"],"tokens":["HJ","H5","HA","H7","CA","C2","CT","CK","CQ","C4","C3","C8","CJ","C6","C7","D2","D7","DA","D6","D3","C5","DK","D9","D5","H3","HK","H4","H6","H8","H9","H2","HQ","-","-","-","DJ","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"8"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:72.J9432.J94.J92 KT5.K5.T8752.753 Q9863.T86.A.AKQ4 AJ4.AQ7.KQ63.T86","cards":[{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"2"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"J"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"2"},{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"7"},{"seat":"N","suit":"C","rank":"5"},{"seat":"N","suit":"C","rank":"3"},{"seat":"E","suit":"S","rank":"Q"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"4"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"J"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"A"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"8"},{"seat":"S","suit":"C","rank":"6"}]}
+{"type":"comment","text":"                   Nord\r\n                   RX5\r\n                   R5\r\n                   X8752\r\n                   753\r\n  Ouest                            Est\r\n  72                               D9863\r\n  V9432                            X86\r\n  V94                              A\r\n  V92                              ARD4\r\n                   Sud\r\n                   AV4\r\n                   AD7\r\n                   RD63\r\n                   X86\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"1NT","level":1,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"8"}
+{"type":"tag","name":"Score","value":"NS 120"}
+{"type":"tag","name":"Auction","value":"W","section":["Pass  Pass  1S    1NT","Pass  Pass  Pass"],"tokens":["Pass","Pass","1S","1NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["S7 S5 S6 SJ","H2 HK H6 H7","D4 D2 DA D3","C2 C3 CQ C6","C9 C5 CK C8","CJ C7 CA CT","-  -  C4 -","*"],"tokens":["S7","S5","S6","SJ","H2","HK","H6","H7","D4","D2","DA","D3","C2","C3","CQ","C6","C9","C5","CK","C8","CJ","C7","CA","CT","-","-","C4","-","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"8"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:72.J9432.J94.J92 KT5.K5.T8752.753 Q9863.T86.A.AKQ4 AJ4.AQ7.KQ63.T86","cards":[{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"2"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"J"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"2"},{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"7"},{"seat":"N","suit":"C","rank":"5"},{"seat":"N","suit":"C","rank":"3"},{"seat":"E","suit":"S","rank":"Q"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"4"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"J"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"A"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"8"},{"seat":"S","suit":"C","rank":"6"}]}
+{"type":"comment","text":"                   Nord\r\n                   RX5\r\n                   R5\r\n                   X8752\r\n                   753\r\n  Ouest                            Est\r\n  72                               D9863\r\n  V9432                            X86\r\n  V94                              A\r\n  V92                              ARD4\r\n                   Sud\r\n                   AV4\r\n                   AD7\r\n                   RD63\r\n                   X86\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"2NT","level":2,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS 150"}
+{"type":"tag","name":"Auction","value":"W","section":["Pass  Pass  1S    1NT","Pass  Pass  2C    Pass","Pass  2D    X     Pass","2H    2NT   Pass  Pass","Pass"],"tokens":["Pass","Pass","1S","1NT","Pass","Pass","2C","Pass","Pass","2D","X","Pass","2H","2NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["S7 SK S3 S4","D4 D2 DA D6","S2 S5 S6 SA","D9 D5 H8 DK","DJ D7 H6 DQ","*"],"tokens":["S7","SK","S3","S4","D4","D2","DA","D6","S2","S5","S6","SA","D9","D5","H8","DK","DJ","D7","H6","DQ","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"9"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:Q64.T76.T2.QJT97 AKJT2.932.AJ86.A 73.Q8.Q743.K6432 985.AKJ54.K95.85","cards":[{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"6"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"7"},{"seat":"E","suit":"S","rank":"A"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"9"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"8"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"C","rank":"A"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"3"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"5"},{"seat":"W","suit":"C","rank":"8"},{"seat":"W","suit":"C","rank":"5"}]}
+{"type":"comment","text":"                   Nord\r\n                   D64\r\n                   X76\r\n                   X2\r\n                   DVX97\r\n  Ouest                            Est\r\n  985                              ARVX2\r\n  ARV54                            932\r\n  R95                              AV86\r\n  85                               A\r\n                   Sud\r\n                   73\r\n                   D8\r\n                   D743\r\n                   R6432\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"4S","level":4,"denomination":"S","risk":""}
+{"type":"tag","name":"Result","value":"12"}
+{"type":"tag","name":"Score","value":"NS -680"}
+{"type":"tag","name":"Auction","value":"N","section":["Pass  1S    Pass  1NT","Pass  2C    Pass  3S  =1=","Pass  4S    Pass  Pass","Pass"],"tokens":["Pass","1S","Pass","1NT","Pass","2C","Pass","3S","=1=","Pass","4S","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:!","number":1,"text":"!"}
+{"type":"tag","name":"Play","value":"S","section":["D4 D5 DT DJ","S3 S5 S4 SA","S7 S8 S6 SK","H8 HA H6 H2","C2 C5 CQ CA","HQ HK H7 H3","-  HJ HT H9","*"],"tokens":["D4","D5","DT","DJ","S3","S5","S4","SA","S7","S8","S6","SK","H8","HA","H6","H2","C2","C5","CQ","CA","HQ","HK","H7","H3","-","HJ","HT","H9","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"9"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:Q64.T76.T2.QJT97 AKJT2.932.AJ86.A 73.Q8.Q743.K6432 985.AKJ54.K95.85","cards":[{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"6"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"7"},{"seat":"E","suit":"S","rank":"A"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"9"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"8"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"C","rank":"A"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"3"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"5"},{"seat":"W","suit":"C","rank":"8"},{"seat":"W","suit":"C","rank":"5"}]}
+{"type":"comment","text":"                   Nord\r\n                   D64\r\n                   X76\r\n                   X2\r\n                   DVX97\r\n  Ouest                            Est\r\n  985                              ARVX2\r\n  ARV54                            932\r\n  R95                              AV86\r\n  85                               A\r\n                   Sud\r\n                   73\r\n                   D8\r\n                   D743\r\n                   R6432\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"4S","level":4,"denomination":"S","risk":""}
+{"type":"tag","name":"Result","value":"13"}
+{"type":"tag","name":"Score","value":"NS -710"}
+{"type":"tag","name":"Auction","value":"N","section":["Pass  1C    Pass  1S  =1=","Pass  2C  =2=    Pass  2S","Pass  3D    Pass  3H","Pass  3S    Pass  4S","Pass  Pass  Pass"],"tokens":["Pass","1C","Pass","1S","=1=","Pass","2C","=2=","Pass","2S","Pass","3D","Pass","3H","Pass","3S","Pass","4S","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:GF with 4+ hearts","number":1,"text":"GF with 4+ hearts"}
+{"type":"tag","name":"Note","value":"2:5+ spades","number":2,"text":"5+ spades"}
+{"type":"tag","name":"Play","value":"N","section":["CQ CA C6 C5","S4 SA S3 S5","H6 H2 H8 HA","S6 S2 S7 S8","SQ SK C4 S9","-  H9 -  -","*"],"tokens":["CQ","CA","C6","C5","S4","SA","S3","S5","H6","H2","H8","HA","S6","S2","S7","S8","SQ","SK","C4","S9","-","H9","-","-","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"10"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:J6532.A7.862.KT6 AT.62.K95.J75432 KQ97.K85.QT43.Q8 84.QJT943.AJ7.A9","cards":[{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"D","rank":"8"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"6"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"T"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"5"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"3"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"8"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"8"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"9"}]}
+{"type":"comment","text":"                   Nord\r\n                   84\r\n                   DVX943\r\n                   AV7\r\n                   A9\r\n  Ouest                            Est\r\n  RD97                             V6532\r\n  R85                              A7\r\n  DX43                             862\r\n  D8                               RX6\r\n                   Sud\r\n                   AX\r\n                   62\r\n                   R95\r\n                   V75432\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"2H","level":2,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS 140"}
+{"type":"tag","name":"Auction","value":"E","section":["Pass  Pass  1D    2H","Pass  Pass  Pass"],"tokens":["Pass","Pass","1D","2H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["D2 D9 DQ DA","HA H2 H5 HJ","S2 SA S7 S4","H7 H6 HK H3","S3 ST SQ S8","D6 D5 D3 DJ","*"],"tokens":["D2","D9","DQ","DA","HA","H2","H5","HJ","S2","SA","S7","S4","H7","H6","HK","H3","S3","ST","SQ","S8","D6","D5","D3","DJ","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"10"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:J6532.A7.862.KT6 AT.62.K95.J75432 KQ97.K85.QT43.Q8 84.QJT943.AJ7.A9","cards":[{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"D","rank":"8"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"6"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"T"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"5"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"3"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"8"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"8"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"9"}]}
+{"type":"comment","text":"                   Nord\r\n                   84\r\n                   DVX943\r\n                   AV7\r\n                   A9\r\n  Ouest                            Est\r\n  RD97                             V6532\r\n  R85                              A7\r\n  DX43                             862\r\n  D8                               RX6\r\n                   Sud\r\n                   AX\r\n                   62\r\n                   R95\r\n                   V75432\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"4H","level":4,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS -100"}
+{"type":"tag","name":"Auction","value":"E","section":["Pass  Pass  1D  =1=    1H","X     XX    2S    X =2=","3C  =3=    4C    Pass  4H","Pass  Pass  Pass"],"tokens":["Pass","Pass","1D","=1=","1H","X","XX","2S","X","=2=","3C","=3=","4C","Pass","4H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:zero or more diamonds","number":1,"text":"zero or more diamonds"}
+{"type":"tag","name":"Note","value":"2:good hand","number":2,"text":"good hand"}
+{"type":"tag","name":"Note","value":"3:game try","number":3,"text":"game try"}
+{"type":"tag","name":"Play","value":"E","section":["S2 ST SQ S8","S5 SA S7 S4","HA H2 H5 HQ","D8 D9 DQ DA","H7 H6 HK HJ","D2 D5 D3 DJ","*"],"tokens":["S2","ST","SQ","S8","S5","SA","S7","S4","HA","H2","H5","HQ","D8","D9","DQ","DA","H7","H6","HK","HJ","D2","D5","D3","DJ","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"11"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:K85.94.9543.KQT6 T764.AQJ.AK86.75 QJ3.T6.QJT2.AJ83 A92.K87532.7.942","cards":[{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"5"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"6"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"Q"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"D","rank":"A"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"C","rank":"7"},{"seat":"W","suit":"C","rank":"5"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"D","rank":"Q"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"3"},{"seat":"E","suit":"S","rank":"A"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"4"},{"seat":"E","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   DV3\r\n                   X6\r\n                   DVX2\r\n                   AV83\r\n  Ouest                            Est\r\n  X764                             A92\r\n  ADV                              R87532\r\n  AR86                             7\r\n  75                               942\r\n                   Sud\r\n                   R85\r\n                   94\r\n                   9543\r\n                   RDX6\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"2H","level":2,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"10"}
+{"type":"tag","name":"Score","value":"NS -170"}
+{"type":"tag","name":"Auction","value":"S","section":["Pass  1D    Pass  1H","Pass  2H    Pass  Pass","Pass"],"tokens":["Pass","1D","Pass","1H","Pass","2H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"S","section":["CK C5 C8 C2","H4 HA H6 H2","CT C7 C3 C9","H9 HJ HT H3","*"],"tokens":["CK","C5","C8","C2","H4","HA","H6","H2","CT","C7","C3","C9","H9","HJ","HT","H3","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"11"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:K85.94.9543.KQT6 T764.AQJ.AK86.75 QJ3.T6.QJT2.AJ83 A92.K87532.7.942","cards":[{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"5"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"6"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"Q"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"D","rank":"A"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"C","rank":"7"},{"seat":"W","suit":"C","rank":"5"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"D","rank":"Q"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"3"},{"seat":"E","suit":"S","rank":"A"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"4"},{"seat":"E","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   DV3\r\n                   X6\r\n                   DVX2\r\n                   AV83\r\n  Ouest                            Est\r\n  X764                             A92\r\n  ADV                              R87532\r\n  AR86                             7\r\n  75                               942\r\n                   Sud\r\n                   R85\r\n                   94\r\n                   9543\r\n                   RDX6\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"4H","level":4,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"10"}
+{"type":"tag","name":"Score","value":"NS -420"}
+{"type":"tag","name":"Auction","value":"S","section":["Pass  1NT =1=    Pass  2D","Pass  2H    Pass  3D  =2=","Pass  3S  =3=    Pass  4H","Pass  Pass  Pass"],"tokens":["Pass","1NT","=1=","Pass","2D","Pass","2H","Pass","3D","=2=","Pass","3S","=3=","Pass","4H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:14-16","number":1,"text":"14-16"}
+{"type":"tag","name":"Note","value":"2:game try in hearts","number":2,"text":"game try in hearts"}
+{"type":"tag","name":"Note","value":"3:accepting the game try ","number":3,"text":"accepting the game try "}
+{"type":"tag","name":"Play","value":"N","section":["DQ D7 D3 DA","D2 S2 D4 DK","C8 C9 CT C5","C3 C2 CK C7","CJ C4 CQ HJ","H6 H2 H4 HA","HT H3 H9 HQ","*"],"tokens":["DQ","D7","D3","DA","D2","S2","D4","DK","C8","C9","CT","C5","C3","C2","CK","C7","CJ","C4","CQ","HJ","H6","H2","H4","HA","HT","H3","H9","HQ","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"12"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:A5.JT653.AQT62.J Q3.AK9.84.AK9643 J98764.872.J7.85 KT2.Q4.K953.QT72","cards":[{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"A"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"J"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"A"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"6"},{"seat":"N","suit":"C","rank":"4"},{"seat":"N","suit":"C","rank":"3"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"C","rank":"8"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"T"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   D3\r\n                   AR9\r\n                   84\r\n                   AR9643\r\n  Ouest                            Est\r\n  A5                               V98764\r\n  VX653                            872\r\n  ADX62                            V7\r\n  V                                85\r\n                   Sud\r\n                   RX2\r\n                   D4\r\n                   R953\r\n                   DX72\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"11"}
+{"type":"tag","name":"Score","value":"NS 660"}
+{"type":"tag","name":"Auction","value":"W","section":["1H    1NT   Pass  3NT","Pass  Pass  Pass"],"tokens":["1H","1NT","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["S7 ST SA S3","*"],"tokens":["S7","ST","SA","S3","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"12"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:A5.JT653.AQT62.J Q3.AK9.84.AK9643 J98764.872.J7.85 KT2.Q4.K953.QT72","cards":[{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"A"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"J"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"A"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"6"},{"seat":"N","suit":"C","rank":"4"},{"seat":"N","suit":"C","rank":"3"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"C","rank":"8"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"T"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   D3\r\n                   AR9\r\n                   84\r\n                   AR9643\r\n  Ouest                            Est\r\n  A5                               V98764\r\n  VX653                            872\r\n  ADX62                            V7\r\n  V                                85\r\n                   Sud\r\n                   RX2\r\n                   D4\r\n                   R953\r\n                   DX72\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"5C","level":5,"denomination":"C","risk":""}
+{"type":"tag","name":"Result","value":"11"}
+{"type":"tag","name":"Score","value":"NS 600"}
+{"type":"tag","name":"Auction","value":"W","section":["1H    2C    3H  =1=    4C","4D    5C    Pass  Pass","Pass"],"tokens":["1H","2C","3H","=1=","4C","4D","5C","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:weak (!)","number":1,"text":"weak (!)"}
+{"type":"tag","name":"Play","value":"E","section":["H8 HQ H3 H9","S8 S2 S5 SQ","C5 C2 CJ CA","C8 CQ D2 C4","H2 H4 H5 HA","H7 ST H6 HK","S4 SK SA S3","*"],"tokens":["H8","HQ","H3","H9","S8","S2","S5","SQ","C5","C2","CJ","CA","C8","CQ","D2","C4","H2","H4","H5","HA","H7","ST","H6","HK","S4","SK","SA","S3","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"13"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:Q3.764.AJT874.Q7 KJ97.8.Q9532.T93 84.QT9532.K.KJ64 AT652.AKJ.6.A852","cards":[{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"7"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"3"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"H","rank":"3"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"S","rank":"2"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"8"},{"seat":"W","suit":"C","rank":"5"},{"seat":"W","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   D3\r\n                   764\r\n                   AVX874\r\n                   D7\r\n  Ouest                            Est\r\n  AX652                            RV97\r\n  ARV                              8\r\n  6                                D9532\r\n  A852                             X93\r\n                   Sud\r\n                   84\r\n                   DX9532\r\n                   R\r\n                   RV64\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"4S","level":4,"denomination":"S","risk":""}
+{"type":"tag","name":"Result","value":"11"}
+{"type":"tag","name":"Score","value":"NS -650"}
+{"type":"tag","name":"Auction","value":"N","section":["2D    Pass  Pass  X","Pass  2S    Pass  4S","Pass  Pass  Pass"],"tokens":["2D","Pass","Pass","X","Pass","2S","Pass","4S","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"S","section":["DK D6 D7 D2","H5 HA H4 H8","H2 HK H6 C3","H3 HJ H7 S7","C4 CA C7 C9","CK C2 CQ CT","S4 S2 SQ SK","H9 S5 -  D3","*"],"tokens":["DK","D6","D7","D2","H5","HA","H4","H8","H2","HK","H6","C3","H3","HJ","H7","S7","C4","CA","C7","C9","CK","C2","CQ","CT","S4","S2","SQ","SK","H9","S5","-","D3","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"13"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:Q3.764.AJT874.Q7 KJ97.8.Q9532.T93 84.QT9532.K.KJ64 AT652.AKJ.6.A852","cards":[{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"7"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"3"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"H","rank":"3"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"S","rank":"2"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"8"},{"seat":"W","suit":"C","rank":"5"},{"seat":"W","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   D3\r\n                   764\r\n                   AVX874\r\n                   D7\r\n  Ouest                            Est\r\n  AX652                            RV97\r\n  ARV                              8\r\n  6                                D9532\r\n  A852                             X93\r\n                   Sud\r\n                   84\r\n                   DX9532\r\n                   R\r\n                   RV64\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"4S","level":4,"denomination":"S","risk":""}
+{"type":"tag","name":"Result","value":"12"}
+{"type":"tag","name":"Score","value":"NS -680"}
+{"type":"tag","name":"Auction","value":"N","section":["Pass  Pass  2H    2S","3D    4S    Pass  Pass","Pass"],"tokens":["Pass","Pass","2H","2S","3D","4S","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"N","section":["H4 H8 HQ HA","H7 C3 H9 HK","H6 C9 H2 HJ","DT D2 DK D6","C7 CT C4 CA","CQ S7 C6 C2","D4 D3 H3 S2","D7 S9 CJ C5","D8 D5 S8 ST","DJ SJ CK C8","S3 SK S4 S5","-  D9 -  -","*"],"tokens":["H4","H8","HQ","HA","H7","C3","H9","HK","H6","C9","H2","HJ","DT","D2","DK","D6","C7","CT","C4","CA","CQ","S7","C6","C2","D4","D3","H3","S2","D7","S9","CJ","C5","D8","D5","S8","ST","DJ","SJ","CK","C8","S3","SK","S4","S5","-","D9","-","-","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"14"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:65.AJT32.J52.A43 KQT92.76.43.JT92 A874.4.KQ9876.Q8 J3.KQ985.AT.K765","cards":[{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"J"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"4"},{"seat":"E","suit":"C","rank":"3"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"S","rank":"T"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"9"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"7"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"8"},{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"7"},{"seat":"N","suit":"C","rank":"6"},{"seat":"N","suit":"C","rank":"5"}]}
+{"type":"comment","text":"                   Nord\r\n                   V3\r\n                   RD985\r\n                   AX\r\n                   R765\r\n  Ouest                            Est\r\n  A874                             65\r\n  4                                AVX32\r\n  RD9876                           V52\r\n  D8                               A43\r\n                   Sud\r\n                   RDX92\r\n                   76\r\n                   43\r\n                   VX92\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"1HX","level":1,"denomination":"H","risk":"X"}
+{"type":"tag","name":"Result","value":"6"}
+{"type":"tag","name":"Score","value":"NS -100"}
+{"type":"tag","name":"Auction","value":"E","section":["Pass  Pass  1D    1H","Pass  Pass  X     Pass","Pass  Pass"],"tokens":["Pass","Pass","1D","1H","Pass","Pass","X","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["S6 SK S8 S3","CA CJ C8 CK","S5 SQ SA SJ","C4 C2 CQ C7","D2 D3 D9 DA","DJ D4 D6 DT","H2 H6 H4 H5","C3 CT S7 C5","D5 ST S4 HK","H3 C9 D7 C6","*"],"tokens":["S6","SK","S8","S3","CA","CJ","C8","CK","S5","SQ","SA","SJ","C4","C2","CQ","C7","D2","D3","D9","DA","DJ","D4","D6","DT","H2","H6","H4","H5","C3","CT","S7","C5","D5","ST","S4","HK","H3","C9","D7","C6","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"14"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:65.AJT32.J52.A43 KQT92.76.43.JT92 A874.4.KQ9876.Q8 J3.KQ985.AT.K765","cards":[{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"J"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"4"},{"seat":"E","suit":"C","rank":"3"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"S","rank":"T"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"9"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"7"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"8"},{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"7"},{"seat":"N","suit":"C","rank":"6"},{"seat":"N","suit":"C","rank":"5"}]}
+{"type":"comment","text":"                   Nord\r\n                   V3\r\n                   RD985\r\n                   AX\r\n                   R765\r\n  Ouest                            Est\r\n  A874                             65\r\n  4                                AVX32\r\n  RD9876                           V52\r\n  D8                               A43\r\n                   Sud\r\n                   RDX92\r\n                   76\r\n                   43\r\n                   VX92\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"3D","level":3,"denomination":"D","risk":""}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS -110"}
+{"type":"tag","name":"Auction","value":"E","section":["1H    1S    2C  =1=    Pass","2D    Pass  3D    Pass","Pass  Pass"],"tokens":["1H","1S","2C","=1=","Pass","2D","Pass","3D","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:diamonds","number":1,"text":"diamonds"}
+{"type":"tag","name":"Play","value":"S","section":["SK SA S3 S5","SQ S4 SJ S6","D4 D6 DA D2","D3 D7 DT DJ","CJ CQ CK C3","*"],"tokens":["SK","SA","S3","S5","SQ","S4","SJ","S6","D4","D6","DA","D2","D3","D7","DT","DJ","CJ","CQ","CK","C3","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"15"}
+{"type":"tag","name":"West","value":"Katz"}
+{"type":"tag","name":"North","value":"Becker"}
+{"type":"tag","name":"East","value":"Nickell"}
+{"type":"tag","name":"South","value":"Kamil"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:KJ3..KJT54.AK643 A962.KJT76.Q87.T QT5.932.A963.J85 874.AQ854.2.Q972","cards":[{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"J"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"D","rank":"T"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"A"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"3"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"2"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"7"},{"seat":"W","suit":"C","rank":"T"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"D","rank":"3"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"5"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"H","rank":"4"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   DX5\r\n                   932\r\n                   A963\r\n                   V85\r\n  Ouest                            Est\r\n  A962                             874\r\n  RVX76                            AD854\r\n  D87                              2\r\n  X                                D972\r\n                   Sud\r\n                   RV3\r\n                   -\r\n                   RVX54\r\n                   AR643\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"5D","level":5,"denomination":"D","risk":""}
+{"type":"tag","name":"Result","value":"10"}
+{"type":"tag","name":"Score","value":"NS -100"}
+{"type":"tag","name":"Auction","value":"S","section":["1D    1H    2D    4H","5D    Pass  Pass  Pass"],"tokens":["1D","1H","2D","4H","5D","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["H6 H2 H8 D4","SA S5 S4 SK","S2 ST S7 S3","D7 D3 D2 DK","D8 DA H5 DJ","CT C5 C2 CA","DQ C8 C7 CK","*"],"tokens":["H6","H2","H8","D4","SA","S5","S4","SK","S2","ST","S7","S3","D7","D3","D2","DK","D8","DA","H5","DJ","CT","C5","C2","CA","DQ","C8","C7","CK","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"2019 Vanderbilt FINAL"}
+{"type":"tag","name":"Site","value":"Segment 1 of 4"}
+{"type":"tag","name":"Board","value":"15"}
+{"type":"tag","name":"West","value":"Crouch"}
+{"type":"tag","name":"North","value":"Levin"}
+{"type":"tag","name":"East","value":"Hydes|"}
+{"type":"tag","name":"South","value":"Weinstein"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:KJ3..KJT54.AK643 A962.KJT76.Q87.T QT5.932.A963.J85 874.AQ854.2.Q972","cards":[{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"J"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"D","rank":"T"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"A"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"3"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"2"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"7"},{"seat":"W","suit":"C","rank":"T"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"D","rank":"3"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"5"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"H","rank":"4"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   DX5\r\n                   932\r\n                   A963\r\n                   V85\r\n  Ouest                            Est\r\n  A962                             874\r\n  RVX76                            AD854\r\n  D87                              2\r\n  X                                D972\r\n                   Sud\r\n                   RV3\r\n                   -\r\n                   RVX54\r\n                   AR643\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"5D","level":5,"denomination":"D","risk":""}
+{"type":"tag","name":"Result","value":"10"}
+{"type":"tag","name":"Score","value":"NS -100"}
+{"type":"tag","name":"Auction","value":"S","section":["1D    1H    2D    4H","5C    Pass  5D    Pass","Pass  Pass"],"tokens":["1D","1H","2D","4H","5C","Pass","5D","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["HT H2 HA D5","D7 D3 D2 DK","D8 DA H5 DJ","CT C5 C2 CA","DQ C8 C7 CK","*"],"tokens":["HT","H2","HA","D5","D7","D3","D2","DK","D8","DA","H5","DJ","CT","C5","C2","CA","DQ","C8","C7","CK","*"]}

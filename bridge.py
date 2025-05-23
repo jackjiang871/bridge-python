@@ -21,6 +21,138 @@ VALID_AUCTION_ACTIONS = set(
     + BIDS               # all valid level+denom bids
 )
 
+class ScoreCalculator:
+    """
+    Duplicate‐style scoring for one deal.
+    Inputs:
+      contract: dict with keys {'level':int, 'denomination':str or None, 'risk': ''|'X'|'XX'}
+      declarer: str in 'N','E','S','W'
+      made: int = number of tricks actually taken by declarer (0–13)
+      vulnerable: 'None','NS','EW','All'
+    Returns:
+      (side:str, score:int)
+    """
+    # per‐trick values
+    TRICK_SCORE = {
+        'C': 20, 'D': 20,
+        'H': 30, 'S': 30,
+        'NT': None  # special: first trick=40, rest=30
+    }
+
+    def __init__(self, contract, declarer, made, vulnerable):
+        self.level = contract['level']
+        self.denom = contract['denomination']
+        self.risk = contract['risk']
+        self.declarer = declarer
+        self.made = made
+        self.vul = vulnerable  # 'None','NS','EW','All'
+
+    def declarer_side(self):
+        return 'NS' if self.declarer in ('N','S') else 'EW'
+
+    def is_vulnerable(self):
+        # self.vul is one of 'None','NS','EW','All'
+        return (self.vul == 'All') or (self.vul == self.declarer_side())
+
+    def pbn_score(self) -> str:
+        """
+        Returns the PBN 'Score' tag string,
+        i.e. always from NS's perspective: "NS <number>"
+        (negative if NS lost).
+        """
+        side, pts = self.score()
+        # if EW won, NS lost ⇒ negative
+        ns_pts = pts if side == 'NS' else -pts
+        return f"NS {ns_pts}"
+
+    def score(self):
+        """Compute (side, points). Positive points to winners."""
+        # PASS‐OUT
+        if self.level == 0:
+            return (None, 0)
+
+        vul = self.is_vulnerable()
+        tricks_needed = 6 + self.level
+        over_under = self.made - tricks_needed
+
+        # made the contract
+        if over_under >= 0:
+            trick_pts = 0
+            # base trick score
+            if self.denom == 'NT':
+                trick_pts = 40 + 30 * (self.level - 1)
+            else:
+                trick_pts = self.TRICK_SCORE[self.denom] * self.level
+
+            # doubled/redoubled
+            mult = 1
+            if self.risk == 'X':
+                trick_pts *= 2
+                mult = 2
+            elif self.risk == 'XX':
+                trick_pts *= 4
+                mult = 4
+
+            total = trick_pts
+
+            # insult bonus for making a doubled contract
+            if mult > 1:
+                total += 50 * mult  # 50 for a double, 100 for redouble
+
+            # game/slam bonus
+            if trick_pts >= 100:
+                total += 500 if vul else 300
+            else:
+                total += 50  # part‐score bonus
+
+            # slam bonuses
+            if self.level == 6:
+                total += 750 if vul else 500
+            elif self.level == 7:
+                total += 1500 if vul else 1000
+
+            # overtricks
+            if self.risk == '':
+                # undoubled: same per‐trick score as suit
+                ovpt = self.TRICK_SCORE[self.denom] if self.denom != 'NT' else 30
+                total += ovpt * over_under
+            else:
+                # doubled/redoubled overtricks
+                if vul:
+                    ov_val = 200
+                else:
+                    ov_val = 100
+                if self.risk == 'XX':
+                    ov_val *= 2
+                total += ov_val * over_under
+
+            return (self.declarer_side(), total)
+
+        # went down
+        vul = self.is_vulnerable()
+        down = -over_under
+        penalty = 0
+        if self.risk == '':
+            # undoubled
+            penalty = 100 * down if vul else 50 * down
+        else:
+            # doubled or redoubled
+            # step penalties
+            if not vul:
+                # first undertrick 100, next two 200, then 300+
+                steps = [100, 200, 200]
+            else:
+                # vulnerable: all undertricks 200 then 300
+                steps = [200, 300, 300]
+            for i in range(down):
+                penalty += steps[i] if i < len(steps) else 300
+            if self.risk == 'XX':
+                penalty *= 2
+
+        # defenders get the points
+        defenders = 'EW' if self.declarer_side() == 'NS' else 'NS'
+        return (defenders, penalty)
+
 class Auction:
     """
     Encapsulates a contract bridge auction sequence:
@@ -104,7 +236,6 @@ class Auction:
         Record a new call. Raises ValueError if invalid.
         Returns True if auction is now finished, False otherwise.
         """
-        print('bid call', player, call)
         if not self.is_valid_call(player, call):
             raise ValueError(f"Illegal call {call!r} by {player}")
 
@@ -197,7 +328,6 @@ class Trick:
         self.trump = trump            # e.g. 'S' or None
         self.leader = leader          # e.g. 'N','E','S','W'
         self.cards = []               # list of {'player','card'} dicts
-        print('leader', self.leader, 'trump', self.trump)
 
     def next_player(self) -> str:
         """Who should play next in this trick?"""
@@ -209,7 +339,6 @@ class Trick:
         # 1) correct turn
         expected = self.next_player()
         if player != expected:
-            # print(player, expected, self.cards, self.SEATS.index(self.leader), self.leader, self.SEATS[(self.SEATS.index(self.leader) + len(self.cards)) % 4])
             raise ValueError(f"It’s {expected}’s turn, not {player}")
 
         # 2) verify card in hand
@@ -222,7 +351,6 @@ class Trick:
             lead_suit = self.cards[0]['card'][0]
             # if you have any lead‐suit cards, you must follow
             if any(c[0] == lead_suit for c in hands[player]) and suit != lead_suit:
-                print(player, hands[player])
                 raise ValueError(f"Must follow {lead_suit} suit")
 
         # 4) play the card
@@ -372,17 +500,17 @@ class Bridge():
         self.dealers.append(action['value'])
 
     def handlePlayAction(self, action):
+        if action['value'] == '*':
+            return
         player, card = action['player'], action['value']
 
         # attempt to add the card (will enforce turn + follow‐suit)
-        print('play card', player, card)
         trick_done = self.currentTrick.add_card(player, card, self.hands)
 
         if trick_done:
             # determine who wins, and make them the new leader
             winner = self.currentTrick.winner()
             self.leader = winner
-            print('winner', winner)
             teams = ['NS', 'EW']
             declarer = self.declarers[-1][0]
             if (winner in teams[0] and declarer in teams[0]) or (winner in teams[1] and declarer in teams[1]):
@@ -391,7 +519,16 @@ class Bridge():
             # start the next trick, with the same trump but new leader
             trump = self.contracts[-1]['denomination']
             self.currentTrick = Trick(trump=trump, leader=self.leader)
-            self.tricks.append(self.currentTrick)
+            if len(self.tricks) == 13:
+                ctr = self.contracts[-1]
+                decl = self.declarers[-1]
+                made = self.results[-1]
+                vul = self.vulnerable
+
+                sc = ScoreCalculator(ctr, decl, made, vul)
+                self.scores.append(sc.pbn_score())
+            else:
+                self.tricks.append(self.currentTrick)
 
     def handleVulnerableAction(self, action):
         self.vulnerable = action['value']

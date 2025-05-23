@@ -1,0 +1,649 @@
+{"type":"directive","text":"PBN 2.1"}
+{"type":"directive","text":"File converted with \"LinToPbnConverter\" (Version 1.3)"}
+{"type":"directive","text":"(c) J.L PELISSON 2009  : pelissonjl@aol.com"}
+{"type":"directive","text":"Free for a non commercial use only"}
+{"type":"directive","text":""}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"HomeTeam","value":"FRANCE"}
+{"type":"tag","name":"VisitTeam","value":"USA2"}
+{"type":"tag","name":"Board","value":"17"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:J2.AKJ874.K8.832 T654.62.AQ54.KJ6 AQ973.T9.76.T974 K8.Q53.JT932.AQ5","cards":[{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"A"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"3"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"6"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"9"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"4"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"H","rank":"Q"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"J"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"5"}]}
+{"type":"comment","text":"                   Nord\r\n                   V2\r\n                   ARV874\r\n                   R8\r\n                   832\r\n  Ouest                            Est\r\n  R8                               X654\r\n  D53                              62\r\n  VX932                            AD54\r\n  AD5                              RV6\r\n                   Sud\r\n                   AD973\r\n                   X9\r\n                   76\r\n                   X974\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"2H","level":2,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"6"}
+{"type":"tag","name":"Score","value":"NS -100"}
+{"type":"tag","name":"Auction","value":"N","section":["1H    Pass  1S    Pass","2H    Pass  Pass  Pass"],"tokens":["1H","Pass","1S","Pass","2H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["S5 S3 S8 SJ","H2 H9 H3 HA","H6 HT H5 HK","S4 SQ SK S2","DA D6 DT DK","D4 D7 D9 D8","*"],"tokens":["S5","S3","S8","SJ","H2","H9","H3","HA","H6","HT","H5","HK","S4","SQ","SK","S2","DA","D6","DT","DK","D4","D7","D9","D8","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"17"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:J2.AKJ874.K8.832 T654.62.AQ54.KJ6 AQ973.T9.76.T974 K8.Q53.JT932.AQ5","cards":[{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"A"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"3"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"6"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"9"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"4"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"H","rank":"Q"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"J"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"5"}]}
+{"type":"comment","text":"                   Nord\r\n                   V2\r\n                   ARV874\r\n                   R8\r\n                   832\r\n  Ouest                            Est\r\n  R8                               X654\r\n  D53                              62\r\n  VX932                            AD54\r\n  AD5                              RV6\r\n                   Sud\r\n                   AD973\r\n                   X9\r\n                   76\r\n                   X974\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"2H","level":2,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS 140"}
+{"type":"tag","name":"Auction","value":"N","section":["1H    Pass  1S    Pass","2D    Pass  2H    Pass","Pass  Pass"],"tokens":["1H","Pass","1S","Pass","2D","Pass","2H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["C6 C4 CA C2","H2 H9 H3 HA","S6 S3 S8 SJ","CJ C7 C5 C8","S5 SA SK S2","S4 SQ HQ HK","CK C9 CQ C3","DA D6 -  -","*"],"tokens":["C6","C4","CA","C2","H2","H9","H3","HA","S6","S3","S8","SJ","CJ","C7","C5","C8","S5","SA","SK","S2","S4","SQ","HQ","HK","CK","C9","CQ","C3","DA","D6","-","-","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"18"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:765.KT.JT.J97543 84.Q85.K97643.QT KJ32.J976.AQ2.A6 AQT9.A432.85.K82","cards":[{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"T"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"5"},{"seat":"E","suit":"C","rank":"4"},{"seat":"E","suit":"C","rank":"3"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"T"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"3"},{"seat":"W","suit":"S","rank":"2"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"D","rank":"A"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"6"},{"seat":"N","suit":"S","rank":"A"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"H","rank":"A"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   ADX9\r\n                   A432\r\n                   85\r\n                   R82\r\n  Ouest                            Est\r\n  RV32                             765\r\n  V976                             RX\r\n  AD2                              VX\r\n  A6                               V97543\r\n                   Sud\r\n                   84\r\n                   D85\r\n                   R97643\r\n                   DX\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"3C","level":3,"denomination":"C","risk":""}
+{"type":"tag","name":"Result","value":"7"}
+{"type":"tag","name":"Score","value":"NS 100"}
+{"type":"tag","name":"Auction","value":"E","section":["Pass  Pass  1NT   Pass","2S    Pass  2NT   Pass","3C    Pass  Pass  Pass"],"tokens":["Pass","Pass","1NT","Pass","2S","Pass","2NT","Pass","3C","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"S","section":["S8 SJ SQ S5","S4 S2 SA S6","CT S3 ST S7","H5 H6 HA HT","CQ SK S9 DT","*"],"tokens":["S8","SJ","SQ","S5","S4","S2","SA","S6","CT","S3","ST","S7","H5","H6","HA","HT","CQ","SK","S9","DT","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"18"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:765.KT.JT.J97543 84.Q85.K97643.QT KJ32.J976.AQ2.A6 AQT9.A432.85.K82","cards":[{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"T"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"5"},{"seat":"E","suit":"C","rank":"4"},{"seat":"E","suit":"C","rank":"3"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"T"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"3"},{"seat":"W","suit":"S","rank":"2"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"D","rank":"A"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"6"},{"seat":"N","suit":"S","rank":"A"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"H","rank":"A"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   ADX9\r\n                   A432\r\n                   85\r\n                   R82\r\n  Ouest                            Est\r\n  RV32                             765\r\n  V976                             RX\r\n  AD2                              VX\r\n  A6                               V97543\r\n                   Sud\r\n                   84\r\n                   D85\r\n                   R97643\r\n                   DX\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"4C","level":4,"denomination":"C","risk":""}
+{"type":"tag","name":"Result","value":"7"}
+{"type":"tag","name":"Score","value":"NS 150"}
+{"type":"tag","name":"Auction","value":"E","section":["3C    Pass  3D    Pass","3H    Pass  3NT   Pass","4C    Pass  Pass  Pass"],"tokens":["3C","Pass","3D","Pass","3H","Pass","3NT","Pass","4C","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"S","section":["S8 SJ SQ S5","HQ H6 H3 HT","S4 S2 S9 S6","H8 S3 SA S7","CT SK ST HK","H5 H7 HA C4","CQ CA C2 C3","D3 C6 CK C5","*"],"tokens":["S8","SJ","SQ","S5","HQ","H6","H3","HT","S4","S2","S9","S6","H8","S3","SA","S7","CT","SK","ST","HK","H5","H7","HA","C4","CQ","CA","C2","C3","D3","C6","CK","C5","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"19"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:.Q982.AKQT92.J92 AKQT.AT43.843.A5 98542.J.75.QT743 J763.K765.J6.K86","cards":[{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"T"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"2"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"9"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"5"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"7"},{"seat":"N","suit":"C","rank":"4"},{"seat":"N","suit":"C","rank":"3"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"8"},{"seat":"E","suit":"C","rank":"6"}]}
+{"type":"comment","text":"                   Nord\r\n                   98542\r\n                   V\r\n                   75\r\n                   DX743\r\n  Ouest                            Est\r\n  ARDX                             V763\r\n  AX43                             R765\r\n  843                              V6\r\n  A5                               R86\r\n                   Sud\r\n                   -\r\n                   D982\r\n                   ARDX92\r\n                   V92\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"4H","level":4,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS 100"}
+{"type":"tag","name":"Auction","value":"S","section":["1D    X     Pass  1H","2D    4H    Pass  Pass","Pass"],"tokens":["1D","X","Pass","1H","2D","4H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"S","section":["DA D3 D7 D6","DK D4 D5 DJ","DQ D8 S5 H6","H2 H3 HJ HK","H8 HA S2 H5","-  SA -  -","*"],"tokens":["DA","D3","D7","D6","DK","D4","D5","DJ","DQ","D8","S5","H6","H2","H3","HJ","HK","H8","HA","S2","H5","-","SA","-","-","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"19"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:.Q982.AKQT92.J92 AKQT.AT43.843.A5 98542.J.75.QT743 J763.K765.J6.K86","cards":[{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"T"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"2"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"9"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"5"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"7"},{"seat":"N","suit":"C","rank":"4"},{"seat":"N","suit":"C","rank":"3"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"8"},{"seat":"E","suit":"C","rank":"6"}]}
+{"type":"comment","text":"                   Nord\r\n                   98542\r\n                   V\r\n                   75\r\n                   DX743\r\n  Ouest                            Est\r\n  ARDX                             V763\r\n  AX43                             R765\r\n  843                              V6\r\n  A5                               R86\r\n                   Sud\r\n                   -\r\n                   D982\r\n                   ARDX92\r\n                   V92\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"4SX","level":4,"denomination":"S","risk":"X"}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS 200"}
+{"type":"tag","name":"Auction","value":"S","section":["1D    X     Pass  1S","2D    3D    Pass  4H","Pass  4S    X     Pass","Pass  Pass"],"tokens":["1D","X","Pass","1S","2D","3D","Pass","4H","Pass","4S","X","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"S","section":["DQ D3 D5 D6","DA D4 D7 DJ","DK D8 C3 S3","D9 SA S5 S6","H2 HA HJ H5","H8 H3 C7 HK","HQ H4 C4 H7","*"],"tokens":["DQ","D3","D5","D6","DA","D4","D7","DJ","DK","D8","C3","S3","D9","SA","S5","S6","H2","HA","HJ","H5","H8","H3","C7","HK","HQ","H4","C4","H7","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"20"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:J65.AK73.T865.95 4.964.3.AKJT7432 KQ872.JT5.Q92.Q6 AT93.Q82.AKJ74.8","cards":[{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"5"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"5"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"3"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"7"},{"seat":"N","suit":"C","rank":"4"},{"seat":"N","suit":"C","rank":"3"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"Q"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"J"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"6"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"T"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"8"}]}
+{"type":"comment","text":"                   Nord\r\n                   4\r\n                   964\r\n                   3\r\n                   ARVX7432\r\n  Ouest                            Est\r\n  V65                              RD872\r\n  AR73                             VX5\r\n  X865                             D92\r\n  95                               D6\r\n                   Sud\r\n                   AX93\r\n                   D82\r\n                   ARV74\r\n                   8\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"5C","level":5,"denomination":"C","risk":""}
+{"type":"tag","name":"Result","value":"11"}
+{"type":"tag","name":"Score","value":"NS 600"}
+{"type":"tag","name":"Auction","value":"W","section":["Pass  5C    Pass  Pass","Pass"],"tokens":["Pass","5C","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["SQ SA S6 S4","C6 C8 C9 CA","CQ H2 C5 CK","S8 D4 S5 CJ","S2 S3 SJ CT","HJ S9 H7 C7","S7 H8 HA C3","H5 HQ HK C2","SK ST H3 C4","*"],"tokens":["SQ","SA","S6","S4","C6","C8","C9","CA","CQ","H2","C5","CK","S8","D4","S5","CJ","S2","S3","SJ","CT","HJ","S9","H7","C7","S7","H8","HA","C3","H5","HQ","HK","C2","SK","ST","H3","C4","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"20"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:J65.AK73.T865.95 4.964.3.AKJT7432 KQ872.JT5.Q92.Q6 AT93.Q82.AKJ74.8","cards":[{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"5"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"5"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"3"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"7"},{"seat":"N","suit":"C","rank":"4"},{"seat":"N","suit":"C","rank":"3"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"Q"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"J"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"6"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"T"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"8"}]}
+{"type":"comment","text":"                   Nord\r\n                   4\r\n                   964\r\n                   3\r\n                   ARVX7432\r\n  Ouest                            Est\r\n  V65                              RD872\r\n  AR73                             VX5\r\n  X865                             D92\r\n  95                               D6\r\n                   Sud\r\n                   AX93\r\n                   D82\r\n                   ARV74\r\n                   8\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"4C","level":4,"denomination":"C","risk":""}
+{"type":"tag","name":"Result","value":"13"}
+{"type":"tag","name":"Score","value":"NS 190"}
+{"type":"tag","name":"Auction","value":"W","section":["Pass  4C    Pass  Pass","Pass"],"tokens":["Pass","4C","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["SK SA S5 S4","C6 C8 C5 CA","CQ H2 C9 CK","S8 S3 H7 CJ","S2 H8 S6 CT","H5 D4 H3 C7","HJ S9 SJ C4","S7 HQ HK C3","HT ST HA C2","SQ D7 -  H9","*"],"tokens":["SK","SA","S5","S4","C6","C8","C5","CA","CQ","H2","C9","CK","S8","S3","H7","CJ","S2","H8","S6","CT","H5","D4","H3","C7","HJ","S9","SJ","C4","S7","HQ","HK","C3","HT","ST","HA","C2","SQ","D7","-","H9","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"21"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:T82.Q984.6.AQ842 93.AK753.AT72.76 AQ754.J2.J943.K5 KJ6.T6.KQ85.JT93","cards":[{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"4"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"T"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"6"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"5"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"5"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"5"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"3"}]}
+{"type":"comment","text":"                   Nord\r\n                   X82\r\n                   D984\r\n                   6\r\n                   AD842\r\n  Ouest                            Est\r\n  RV6                              93\r\n  X6                               AR753\r\n  RD85                             AX72\r\n  VX93                             76\r\n                   Sud\r\n                   AD754\r\n                   V2\r\n                   V943\r\n                   R5\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"2S","level":2,"denomination":"S","risk":""}
+{"type":"tag","name":"Result","value":"8"}
+{"type":"tag","name":"Score","value":"NS 110"}
+{"type":"tag","name":"Auction","value":"N","section":["Pass  1H    1S    1NT","2S    Pass  Pass  Pass"],"tokens":["Pass","1H","1S","1NT","2S","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["CT CA C7 C5","D8 D6 D2 D3","S6 S2 S9 SQ","D5 S8 D7 D4","C3 C2 C6 CK","DQ ST DT D9","C9 CQ S3 S4","*"],"tokens":["CT","CA","C7","C5","D8","D6","D2","D3","S6","S2","S9","SQ","D5","S8","D7","D4","C3","C2","C6","CK","DQ","ST","DT","D9","C9","CQ","S3","S4","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"21"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:T82.Q984.6.AQ842 93.AK753.AT72.76 AQ754.J2.J943.K5 KJ6.T6.KQ85.JT93","cards":[{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"4"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"T"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"6"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"5"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"2"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"D","rank":"3"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"5"},{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"5"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"3"}]}
+{"type":"comment","text":"                   Nord\r\n                   X82\r\n                   D984\r\n                   6\r\n                   AD842\r\n  Ouest                            Est\r\n  RV6                              93\r\n  X6                               AR753\r\n  RD85                             AX72\r\n  VX93                             76\r\n                   Sud\r\n                   AD754\r\n                   V2\r\n                   V943\r\n                   R5\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"2S","level":2,"denomination":"S","risk":""}
+{"type":"tag","name":"Result","value":"8"}
+{"type":"tag","name":"Score","value":"NS 110"}
+{"type":"tag","name":"Auction","value":"N","section":["Pass  1H    1S    1NT","2S    Pass  Pass  Pass"],"tokens":["Pass","1H","1S","1NT","2S","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["HT H4 HA HJ","H6 H8 HK H2","S6 H9 H7 D4","D5 D6 DA D3","SJ HQ H3 D9","CJ C2 C6 CK","SK S2 S3 SA","*"],"tokens":["HT","H4","HA","HJ","H6","H8","HK","H2","S6","H9","H7","D4","D5","D6","DA","D3","SJ","HQ","H3","D9","CJ","C2","C6","CK","SK","S2","S3","SA","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"22"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:J6.52.743.KT9843 K7532.643.J85.J7 Q984.AKT9.KQ9.65 AT.QJ87.AT62.AQ2","cards":[{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"8"},{"seat":"E","suit":"C","rank":"4"},{"seat":"E","suit":"C","rank":"3"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"5"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"H","rank":"3"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"D","rank":"8"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"7"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"C","rank":"6"},{"seat":"W","suit":"C","rank":"5"},{"seat":"N","suit":"S","rank":"A"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   AX\r\n                   DV87\r\n                   AX62\r\n                   AD2\r\n  Ouest                            Est\r\n  D984                             V6\r\n  ARX9                             52\r\n  RD9                              743\r\n  65                               RX9843\r\n                   Sud\r\n                   R7532\r\n                   643\r\n                   V85\r\n                   V7\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"3C","level":3,"denomination":"C","risk":""}
+{"type":"tag","name":"Result","value":"7"}
+{"type":"tag","name":"Score","value":"NS 200"}
+{"type":"tag","name":"Auction","value":"E","section":["Pass  Pass  1NT   Pass","2S    Pass  2NT   Pass","3C    Pass  Pass  Pass"],"tokens":["Pass","Pass","1NT","Pass","2S","Pass","2NT","Pass","3C","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"S","section":["H3 HA H8 H5","CJ C5 C2 CT","H6 HK H7 H2","C7 C6 CA C9","H4 H9 HQ C3","S2 HT CQ CK","S3 S9 ST S6","DJ DK D6 D3","S5 SQ SA SJ","D5 S4 HJ C4","*"],"tokens":["H3","HA","H8","H5","CJ","C5","C2","CT","H6","HK","H7","H2","C7","C6","CA","C9","H4","H9","HQ","C3","S2","HT","CQ","CK","S3","S9","ST","S6","DJ","DK","D6","D3","S5","SQ","SA","SJ","D5","S4","HJ","C4","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"22"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:J6.52.743.KT9843 K7532.643.J85.J7 Q984.AKT9.KQ9.65 AT.QJ87.AT62.AQ2","cards":[{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"9"},{"seat":"E","suit":"C","rank":"8"},{"seat":"E","suit":"C","rank":"4"},{"seat":"E","suit":"C","rank":"3"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"5"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"H","rank":"3"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"D","rank":"8"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"7"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"C","rank":"6"},{"seat":"W","suit":"C","rank":"5"},{"seat":"N","suit":"S","rank":"A"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"7"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"Q"},{"seat":"N","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   AX\r\n                   DV87\r\n                   AX62\r\n                   AD2\r\n  Ouest                            Est\r\n  D984                             V6\r\n  ARX9                             52\r\n  RD9                              743\r\n  65                               RX9843\r\n                   Sud\r\n                   R7532\r\n                   643\r\n                   V85\r\n                   V7\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"2S","level":2,"denomination":"S","risk":""}
+{"type":"tag","name":"Result","value":"7"}
+{"type":"tag","name":"Score","value":"NS -50"}
+{"type":"tag","name":"Auction","value":"E","section":["Pass  Pass  1D    1NT","Pass  2H    X     2S","Pass  Pass  Pass"],"tokens":["Pass","Pass","1D","1NT","Pass","2H","X","2S","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["D3 D5 DQ DA","S6 S2 S4 SA","SJ SK S8 ST","H5 H3 HK H7","CK C7 C6 CQ","C4 CJ C5 C2","D4 S3 S9 H8","H2 S5 SQ D2","*"],"tokens":["D3","D5","DQ","DA","S6","S2","S4","SA","SJ","SK","S8","ST","H5","H3","HK","H7","CK","C7","C6","CQ","C4","CJ","C5","C2","D4","S3","S9","H8","H2","S5","SQ","D2","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"23"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:A76.Q54.AJ.KQ864 Q95.KT32.83.AT73 KT82.AJ98.K9.J52 J43.76.QT76542.9","cards":[{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"8"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"7"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"A"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"5"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"T"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"9"}]}
+{"type":"comment","text":"                   Nord\r\n                   RX82\r\n                   AV98\r\n                   R9\r\n                   V52\r\n  Ouest                            Est\r\n  D95                              V43\r\n  RX32                             76\r\n  83                               DX76542\r\n  AX73                             9\r\n                   Sud\r\n                   A76\r\n                   D54\r\n                   AV\r\n                   RD864\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS 600"}
+{"type":"tag","name":"Auction","value":"S","section":["1NT   Pass  2C    Pass","2D    Pass  3NT   Pass","Pass  Pass"],"tokens":["1NT","Pass","2C","Pass","2D","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["C3 C2 C9 CK","CT CJ D2 C8","H2 HA H6 H4","HK H8 H7 HQ","D3 D9 DQ DA","S5 S2 SJ S7","D8 DK D7 DJ","S9 S8 S3 SA","SQ SK S4 S6","C7 ST D6 C4","H3 HJ D4 H5","*"],"tokens":["C3","C2","C9","CK","CT","CJ","D2","C8","H2","HA","H6","H4","HK","H8","H7","HQ","D3","D9","DQ","DA","S5","S2","SJ","S7","D8","DK","D7","DJ","S9","S8","S3","SA","SQ","SK","S4","S6","C7","ST","D6","C4","H3","HJ","D4","H5","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"23"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:A76.Q54.AJ.KQ864 Q95.KT32.83.AT73 KT82.AJ98.K9.J52 J43.76.QT76542.9","cards":[{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"8"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"4"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"7"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"A"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"5"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"T"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"9"}]}
+{"type":"comment","text":"                   Nord\r\n                   RX82\r\n                   AV98\r\n                   R9\r\n                   V52\r\n  Ouest                            Est\r\n  D95                              V43\r\n  RX32                             76\r\n  83                               DX76542\r\n  AX73                             9\r\n                   Sud\r\n                   A76\r\n                   D54\r\n                   AV\r\n                   RD864\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"11"}
+{"type":"tag","name":"Score","value":"NS 660"}
+{"type":"tag","name":"Auction","value":"S","section":["1NT   Pass  2C    Pass","2D    Pass  3NT   Pass","Pass  Pass"],"tokens":["1NT","Pass","2C","Pass","2D","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["H2 H8 H7 H5","CA C2 C9 CK","H3 H9 H6 H4","C3 CJ D2 C4","C7 C5 D4 CQ","CT S2 D7 C8","S5 S8 SJ SA","-  -  -  C6","*"],"tokens":["H2","H8","H7","H5","CA","C2","C9","CK","H3","H9","H6","H4","C3","CJ","D2","C4","C7","C5","D4","CQ","CT","S2","D7","C8","S5","S8","SJ","SA","-","-","-","C6","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"24"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:T.A2.QJT872.AJ93 AQJ62.K98.A93.T8 98543.Q3.64.Q542 K7.JT7654.K5.K76","cards":[{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"J"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"7"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"S","rank":"A"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"6"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"D","rank":"3"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"8"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"5"},{"seat":"E","suit":"C","rank":"4"},{"seat":"E","suit":"C","rank":"2"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"6"}]}
+{"type":"comment","text":"                   Nord\r\n                   ADV62\r\n                   R98\r\n                   A93\r\n                   X8\r\n  Ouest                            Est\r\n  X                                98543\r\n  A2                               D3\r\n  DVX872                           64\r\n  AV93                             D542\r\n                   Sud\r\n                   R7\r\n                   VX7654\r\n                   R5\r\n                   R76\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"4H","level":4,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"10"}
+{"type":"tag","name":"Score","value":"NS 420"}
+{"type":"tag","name":"Auction","value":"W","section":["1D    1S    Pass  2H","Pass  4H    Pass  Pass","Pass"],"tokens":["1D","1S","Pass","2H","Pass","4H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["ST S2 S4 SK","HA H8 H3 H4","CA C8 C2 C7","C3 CT CQ CK","H2 H9 HQ H5","*"],"tokens":["ST","S2","S4","SK","HA","H8","H3","H4","CA","C8","C2","C7","C3","CT","CQ","CK","H2","H9","HQ","H5","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"24"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:T.A2.QJT872.AJ93 AQJ62.K98.A93.T8 98543.Q3.64.Q542 K7.JT7654.K5.K76","cards":[{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"J"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"7"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"A"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"S","rank":"A"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"6"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"9"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"D","rank":"3"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"8"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"D","rank":"4"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"5"},{"seat":"E","suit":"C","rank":"4"},{"seat":"E","suit":"C","rank":"2"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"K"},{"seat":"S","suit":"D","rank":"5"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"6"}]}
+{"type":"comment","text":"                   Nord\r\n                   ADV62\r\n                   R98\r\n                   A93\r\n                   X8\r\n  Ouest                            Est\r\n  X                                98543\r\n  A2                               D3\r\n  DVX872                           64\r\n  AV93                             D542\r\n                   Sud\r\n                   R7\r\n                   VX7654\r\n                   R5\r\n                   R76\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"4H","level":4,"denomination":"H","risk":""}
+{"type":"tag","name":"Result","value":"11"}
+{"type":"tag","name":"Score","value":"NS 450"}
+{"type":"tag","name":"Auction","value":"W","section":["1D    1S    Pass  2H","Pass  4H    Pass  Pass","Pass"],"tokens":["1D","1S","Pass","2H","Pass","4H","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["ST S2 S5 SK","HA H8 H3 H6","CA C8 C2 C6","CJ CT C4 CK","H2 HK HQ H4","*"],"tokens":["ST","S2","S5","SK","HA","H8","H3","H6","CA","C8","C2","C6","CJ","CT","C4","CK","H2","HK","HQ","H4","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"25"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:K72.K832.KJ96.T7 T63.Q965.Q7.AKQ8 A984.JT4.84.J965 QJ5.A7.AT532.432","cards":[{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"7"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"7"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"9"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"8"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"8"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"9"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"5"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"D","rank":"A"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"5"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"4"},{"seat":"W","suit":"C","rank":"3"},{"seat":"W","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   R72\r\n                   R832\r\n                   RV96\r\n                   X7\r\n  Ouest                            Est\r\n  DV5                              X63\r\n  A7                               D965\r\n  AX532                            D7\r\n  432                              ARD8\r\n                   Sud\r\n                   A984\r\n                   VX4\r\n                   84\r\n                   V965\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"7"}
+{"type":"tag","name":"Score","value":"NS 200"}
+{"type":"tag","name":"Auction","value":"N","section":["Pass  1C    Pass  1D","Pass  1NT   Pass  2NT","Pass  3NT   Pass  Pass","Pass"],"tokens":["Pass","1C","Pass","1D","Pass","1NT","Pass","2NT","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"S","section":["S4 SQ SK S6","S8 SJ S7 S3","D4 D2 DK D7","SA S5 S2 ST","S9 C2 H8 H5","HJ H7 HK H6","H4 HA H2 H9","C5 C3 C7 CA","C6 C4 CT CK","C9 D3 H3 CQ","HT D5 D6 HQ","D8 DA D9 DQ","CJ DT DJ C8","*"],"tokens":["S4","SQ","SK","S6","S8","SJ","S7","S3","D4","D2","DK","D7","SA","S5","S2","ST","S9","C2","H8","H5","HJ","H7","HK","H6","H4","HA","H2","H9","C5","C3","C7","CA","C6","C4","CT","CK","C9","D3","H3","CQ","HT","D5","D6","HQ","D8","DA","D9","DQ","CJ","DT","DJ","C8","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"25"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:K72.K832.KJ96.T7 T63.Q965.Q7.AKQ8 A984.JT4.84.J965 QJ5.A7.AT532.432","cards":[{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"7"},{"seat":"N","suit":"S","rank":"2"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"9"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"7"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"9"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"H","rank":"5"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"8"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"9"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"8"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"9"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"5"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"D","rank":"A"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"5"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"4"},{"seat":"W","suit":"C","rank":"3"},{"seat":"W","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   R72\r\n                   R832\r\n                   RV96\r\n                   X7\r\n  Ouest                            Est\r\n  DV5                              X63\r\n  A7                               D965\r\n  AX532                            D7\r\n  432                              ARD8\r\n                   Sud\r\n                   A984\r\n                   VX4\r\n                   84\r\n                   V965\r\n"}
+{"type":"tag","name":"Declarer","value":"E"}
+{"type":"tag","name":"Contract","value":"2NT","level":2,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"7"}
+{"type":"tag","name":"Score","value":"NS 100"}
+{"type":"tag","name":"Auction","value":"N","section":["Pass  1C    Pass  1D","Pass  1H    Pass  1S","Pass  1NT   Pass  2NT","Pass  Pass  Pass"],"tokens":["Pass","1C","Pass","1D","Pass","1H","Pass","1S","Pass","1NT","Pass","2NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"S","section":["C5 C2 CT CK","D4 DT DJ D7","C6 C3 C7 CA","D8 D2 DK DQ","HT HA H3 H6","S4 DA D6 C8","H4 H7 HK H5","HJ D3 D9 S6","SA S5 S2 S3","S9 SJ SK ST","*"],"tokens":["C5","C2","CT","CK","D4","DT","DJ","D7","C6","C3","C7","CA","D8","D2","DK","DQ","HT","HA","H3","H6","S4","DA","D6","C8","H4","H7","HK","H5","HJ","D3","D9","S6","SA","S5","S2","S3","S9","SJ","SK","ST","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"26"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:A62.AQ8.KQ92.A75 8543.J76.74.KQ42 QJT.KT9.A853.JT9 K97.5432.JT6.863","cards":[{"seat":"E","suit":"S","rank":"A"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"D","rank":"K"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"5"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"D","rank":"A"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"5"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"9"},{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"S","rank":"7"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"6"},{"seat":"N","suit":"C","rank":"3"}]}
+{"type":"comment","text":"                   Nord\r\n                   R97\r\n                   5432\r\n                   VX6\r\n                   863\r\n  Ouest                            Est\r\n  DVX                              A62\r\n  RX9                              AD8\r\n  A853                             RD92\r\n  VX9                              A75\r\n                   Sud\r\n                   8543\r\n                   V76\r\n                   74\r\n                   RD42\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"4NT","level":4,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"11"}
+{"type":"tag","name":"Score","value":"NS -660"}
+{"type":"tag","name":"Auction","value":"E","section":["1D    Pass  2NT   Pass","4NT   Pass  Pass  Pass"],"tokens":["1D","Pass","2NT","Pass","4NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"N","section":["S7 S2 S5 SJ","C6 C5 CQ CJ","SK SA S8 SQ","DT DK D4 D3","D6 DQ D7 D5","DJ D9 S3 DA","C3 C7 CK CT","*"],"tokens":["S7","S2","S5","SJ","C6","C5","CQ","CJ","SK","SA","S8","SQ","DT","DK","D4","D3","D6","DQ","D7","D5","DJ","D9","S3","DA","C3","C7","CK","CT","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"26"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:A62.AQ8.KQ92.A75 8543.J76.74.KQ42 QJT.KT9.A853.JT9 K97.5432.JT6.863","cards":[{"seat":"E","suit":"S","rank":"A"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"D","rank":"K"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"2"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"5"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"4"},{"seat":"S","suit":"C","rank":"2"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"D","rank":"A"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"5"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"9"},{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"9"},{"seat":"N","suit":"S","rank":"7"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"6"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"6"},{"seat":"N","suit":"C","rank":"3"}]}
+{"type":"comment","text":"                   Nord\r\n                   R97\r\n                   5432\r\n                   VX6\r\n                   863\r\n  Ouest                            Est\r\n  DVX                              A62\r\n  RX9                              AD8\r\n  A853                             RD92\r\n  VX9                              A75\r\n                   Sud\r\n                   8543\r\n                   V76\r\n                   74\r\n                   RD42\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"10"}
+{"type":"tag","name":"Score","value":"NS -630"}
+{"type":"tag","name":"Auction","value":"E","section":["1D    Pass  2NT   Pass","3NT   Pass  Pass  Pass"],"tokens":["1D","Pass","2NT","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"N","section":["S7 S2 S3 ST","SK SA S5 SQ","DJ DK D4 D3","D6 DQ D7 D5","DT D2 C2 DA","C6 C5 CK CJ","S9 S6 S4 SJ","C3 C7 CQ C9","-  -  S8 -","*"],"tokens":["S7","S2","S3","ST","SK","SA","S5","SQ","DJ","DK","D4","D3","D6","DQ","D7","D5","DT","D2","C2","DA","C6","C5","CK","CJ","S9","S6","S4","SJ","C3","C7","CQ","C9","-","-","S8","-","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"27"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:AKQ.T85.AQ74.654 87.AJ974.963.Q93 T6543.Q63.T82.T8 J92.K2.KJ5.AKJ72","cards":[{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"5"},{"seat":"S","suit":"C","rank":"4"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"6"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"8"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"K"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   X6543\r\n                   D63\r\n                   X82\r\n                   X8\r\n  Ouest                            Est\r\n  87                               V92\r\n  AV974                            R2\r\n  963                              RV5\r\n  D93                              ARV72\r\n                   Sud\r\n                   ARD\r\n                   X85\r\n                   AD74\r\n                   654\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"2S","level":2,"denomination":"S","risk":""}
+{"type":"tag","name":"Result","value":"7"}
+{"type":"tag","name":"Score","value":"NS -50"}
+{"type":"tag","name":"Auction","value":"S","section":["1NT   Pass  2H    Pass","2S    Pass  Pass  Pass"],"tokens":["1NT","Pass","2H","Pass","2S","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["D3 D2 DJ DQ","S7 S3 S2 SA","S8 S4 S9 SK","H4 S5 SJ SQ","CQ C8 C7 C4","HJ HQ HK H5","C3 CT CK C5","H9 H3 H2 H8","HA H6 -  -","*"],"tokens":["D3","D2","DJ","DQ","S7","S3","S2","SA","S8","S4","S9","SK","H4","S5","SJ","SQ","CQ","C8","C7","C4","HJ","HQ","HK","H5","C3","CT","CK","C5","H9","H3","H2","H8","HA","H6","-","-","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"27"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:AKQ.T85.AQ74.654 87.AJ974.963.Q93 T6543.Q63.T82.T8 J92.K2.KJ5.AKJ72","cards":[{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"H","rank":"T"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"5"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"7"},{"seat":"S","suit":"D","rank":"4"},{"seat":"S","suit":"C","rank":"6"},{"seat":"S","suit":"C","rank":"5"},{"seat":"S","suit":"C","rank":"4"},{"seat":"W","suit":"S","rank":"8"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"J"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"H","rank":"7"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"6"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"S","rank":"4"},{"seat":"N","suit":"S","rank":"3"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"8"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"8"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"S","rank":"2"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"K"},{"seat":"E","suit":"D","rank":"J"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"C","rank":"A"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"2"}]}
+{"type":"comment","text":"                   Nord\r\n                   X6543\r\n                   D63\r\n                   X82\r\n                   X8\r\n  Ouest                            Est\r\n  87                               V92\r\n  AV974                            R2\r\n  963                              RV5\r\n  D93                              ARV72\r\n                   Sud\r\n                   ARD\r\n                   X85\r\n                   AD74\r\n                   654\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"3S","level":3,"denomination":"S","risk":""}
+{"type":"tag","name":"Result","value":"8"}
+{"type":"tag","name":"Score","value":"NS -50"}
+{"type":"tag","name":"Auction","value":"S","section":["1NT   Pass  2H    Pass","2S    Pass  Pass  3C","3S    Pass  Pass  Pass"],"tokens":["1NT","Pass","2H","Pass","2S","Pass","Pass","3C","3S","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["C3 C8 CK C5","S7 S3 S2 SA","S8 S4 S9 SK","H4 S5 SJ SQ","D3 DT DJ D4","C9 CT CA C4","CQ S6 CJ C6","D6 D8 D5 DQ","D9 D2 DK DA","H7 H3 -  D7","*"],"tokens":["C3","C8","CK","C5","S7","S3","S2","SA","S8","S4","S9","SK","H4","S5","SJ","SQ","D3","DT","DJ","D4","C9","CT","CA","C4","CQ","S6","CJ","C6","D6","D8","D5","DQ","D9","D2","DK","DA","H7","H3","-","D7","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"28"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:KT9..KQT643.Q853 .KT65.J752.KJ962 Q853.AQ8432.A98. AJ7642.J97..AT74","cards":[{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"8"},{"seat":"W","suit":"C","rank":"5"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"6"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"Q"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"4"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"8"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"J"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"C","rank":"A"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"4"}]}
+{"type":"comment","text":"                   Nord\r\n                   -\r\n                   RX65\r\n                   V752\r\n                   RV962\r\n  Ouest                            Est\r\n  RX9                              D853\r\n  -                                 AD8432\r\n  RDX643                           A98\r\n  D853                             -\r\n                   Sud\r\n                   AV7642\r\n                   V97\r\n                   -\r\n                   AX74\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"5"}
+{"type":"tag","name":"Score","value":"NS 200"}
+{"type":"tag","name":"Auction","value":"W","section":["1D    Pass  1H    1S","2D    Pass  2S    Pass","3C    Pass  3D    Pass","3NT   Pass  Pass  Pass"],"tokens":["1D","Pass","1H","1S","2D","Pass","2S","Pass","3C","Pass","3D","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"N","section":["C2 H2 CA C3","C9 S3 C7 C8","H6 HA H7 D3","D2 D8 S7 DK","D5 D9 S2 D4","D7 DA S6 D6","DJ S5 SA ST","CK H3 CT CQ","CJ S8 C4 C5","C6 SQ S4 S9","*"],"tokens":["C2","H2","CA","C3","C9","S3","C7","C8","H6","HA","H7","D3","D2","D8","S7","DK","D5","D9","S2","D4","D7","DA","S6","D6","DJ","S5","SA","ST","CK","H3","CT","CQ","CJ","S8","C4","C5","C6","SQ","S4","S9","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"28"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:KT9..KQT643.Q853 .KT65.J752.KJ962 Q853.AQ8432.A98. AJ7642.J97..AT74","cards":[{"seat":"W","suit":"S","rank":"K"},{"seat":"W","suit":"S","rank":"T"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"D","rank":"K"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"6"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"8"},{"seat":"W","suit":"C","rank":"5"},{"seat":"W","suit":"C","rank":"3"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"6"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"J"},{"seat":"N","suit":"C","rank":"9"},{"seat":"N","suit":"C","rank":"6"},{"seat":"N","suit":"C","rank":"2"},{"seat":"E","suit":"S","rank":"Q"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"S","rank":"3"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"8"},{"seat":"E","suit":"H","rank":"4"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"8"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"J"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"C","rank":"A"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"4"}]}
+{"type":"comment","text":"                   Nord\r\n                   -\r\n                   RX65\r\n                   V752\r\n                   RV962\r\n  Ouest                            Est\r\n  RX9                              D853\r\n  -                                 AD8432\r\n  RDX643                           A98\r\n  D853                             -\r\n                   Sud\r\n                   AV7642\r\n                   V97\r\n                   -\r\n                   AX74\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"5"}
+{"type":"tag","name":"Score","value":"NS 200"}
+{"type":"tag","name":"Auction","value":"W","section":["1D    Pass  1H    1S","2C    Pass  2S    Pass","3D    Pass  3H    Pass","3NT   Pass  Pass  Pass"],"tokens":["1D","Pass","1H","1S","2C","Pass","2S","Pass","3D","Pass","3H","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"N","section":["C6 H2 CA C3","CK H3 CT CQ","CJ S3 C7 C5","C9 S5 C4 C8","C2 S8 S2 S9","HT HA HJ ST","D2 D8 S4 DK","D5 D9 S6 D3","D7 DA S7 D4","DJ SQ SA SK","H5 H4 SJ D6","HK H8 H9 DT","H6 HQ H7 DQ","*"],"tokens":["C6","H2","CA","C3","CK","H3","CT","CQ","CJ","S3","C7","C5","C9","S5","C4","C8","C2","S8","S2","S9","HT","HA","HJ","ST","D2","D8","S4","DK","D5","D9","S6","D3","D7","DA","S7","D4","DJ","SQ","SA","SK","H5","H4","SJ","D6","HK","H8","H9","DT","H6","HQ","H7","DQ","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"29"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:JT8.KQJ4.KJ74.A9 K9.A72.Q53.QT632 Q732.986.AT6.K85 A654.T53.982.J74","cards":[{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"9"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"6"},{"seat":"E","suit":"C","rank":"3"},{"seat":"E","suit":"C","rank":"2"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"T"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"8"},{"seat":"S","suit":"C","rank":"5"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"7"},{"seat":"W","suit":"C","rank":"4"}]}
+{"type":"comment","text":"                   Nord\r\n                   VX8\r\n                   RDV4\r\n                   RV74\r\n                   A9\r\n  Ouest                            Est\r\n  A654                             R9\r\n  X53                              A72\r\n  982                              D53\r\n  V74                              DX632\r\n                   Sud\r\n                   D732\r\n                   986\r\n                   AX6\r\n                   R85\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"6"}
+{"type":"tag","name":"Score","value":"NS -300"}
+{"type":"tag","name":"Auction","value":"N","section":["1NT   Pass  3C    Pass","3D    Pass  3NT   Pass","Pass  Pass"],"tokens":["1NT","Pass","3C","Pass","3D","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["C3 C5 CJ C9","C2 C8 C7 CA","HA H6 H5 HK","CQ CK C4 S8","DQ DT D2 D4","CT S2 S4 H4","C6 H8 D9 ST","*"],"tokens":["C3","C5","CJ","C9","C2","C8","C7","CA","HA","H6","H5","HK","CQ","CK","C4","S8","DQ","DT","D2","D4","CT","S2","S4","H4","C6","H8","D9","ST","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"29"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"All"}
+{"type":"tag","name":"Dealer","value":"N"}
+{"type":"tag","name":"Deal","value":"N:JT8.KQJ4.KJ74.A9 K9.A72.Q53.QT632 Q732.986.AT6.K85 A654.T53.982.J74","cards":[{"seat":"N","suit":"S","rank":"J"},{"seat":"N","suit":"S","rank":"T"},{"seat":"N","suit":"S","rank":"8"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"4"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"7"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"9"},{"seat":"E","suit":"S","rank":"K"},{"seat":"E","suit":"S","rank":"9"},{"seat":"E","suit":"H","rank":"A"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"T"},{"seat":"E","suit":"C","rank":"6"},{"seat":"E","suit":"C","rank":"3"},{"seat":"E","suit":"C","rank":"2"},{"seat":"S","suit":"S","rank":"Q"},{"seat":"S","suit":"S","rank":"7"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"9"},{"seat":"S","suit":"H","rank":"8"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"D","rank":"A"},{"seat":"S","suit":"D","rank":"T"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"C","rank":"K"},{"seat":"S","suit":"C","rank":"8"},{"seat":"S","suit":"C","rank":"5"},{"seat":"W","suit":"S","rank":"A"},{"seat":"W","suit":"S","rank":"6"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"S","rank":"4"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"3"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"2"},{"seat":"W","suit":"C","rank":"J"},{"seat":"W","suit":"C","rank":"7"},{"seat":"W","suit":"C","rank":"4"}]}
+{"type":"comment","text":"                   Nord\r\n                   VX8\r\n                   RDV4\r\n                   RV74\r\n                   A9\r\n  Ouest                            Est\r\n  A654                             R9\r\n  X53                              A72\r\n  982                              D53\r\n  V74                              DX632\r\n                   Sud\r\n                   D732\r\n                   986\r\n                   AX6\r\n                   R85\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS 600"}
+{"type":"tag","name":"Auction","value":"N","section":["1NT   Pass  3NT   Pass","Pass  Pass"],"tokens":["1NT","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["C2 CK C4 C9","HA H6 H3 HK","C6 C5 CJ CA","H2 H8 H5 HQ","H7 H9 HT HJ","D5 C8 S6 H4","D3 DT D2 D4","DQ DA D8 D7","-  D6 D9 -","*"],"tokens":["C2","CK","C4","C9","HA","H6","H3","HK","C6","C5","CJ","CA","H2","H8","H5","HQ","H7","H9","HT","HJ","D5","C8","S6","H4","D3","DT","D2","D4","DQ","DA","D8","D7","-","D6","D9","-","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"30"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:75.KQ763.63.J764 AT86432..982.Q98 J9.AT98542.QT7.2 KQ.J.AKJ54.AKT53","cards":[{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"6"},{"seat":"E","suit":"C","rank":"4"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"T"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"8"},{"seat":"S","suit":"D","rank":"2"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"9"},{"seat":"S","suit":"C","rank":"8"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"H","rank":"8"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"7"},{"seat":"W","suit":"C","rank":"2"},{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"5"},{"seat":"N","suit":"C","rank":"3"}]}
+{"type":"comment","text":"                   Nord\r\n                   RD\r\n                   V\r\n                   ARV54\r\n                   ARX53\r\n  Ouest                            Est\r\n  V9                               75\r\n  AX98542                          RD763\r\n  DX7                              63\r\n  2                                V764\r\n                   Sud\r\n                   AX86432\r\n                   -\r\n                   982\r\n                   D98\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"6S","level":6,"denomination":"S","risk":""}
+{"type":"tag","name":"Result","value":"13"}
+{"type":"tag","name":"Score","value":"NS 1010"}
+{"type":"tag","name":"Auction","value":"E","section":["Pass  3S    Pass  4NT","Pass  5D    Pass  6S","Pass  Pass  Pass"],"tokens":["Pass","3S","Pass","4NT","Pass","5D","Pass","6S","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"W","section":["HA HJ H3 S2","S9 SQ S5 S3","SJ SK S7 S4","*"],"tokens":["HA","HJ","H3","S2","S9","SQ","S5","S3","SJ","SK","S7","S4","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"30"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"None"}
+{"type":"tag","name":"Dealer","value":"E"}
+{"type":"tag","name":"Deal","value":"E:75.KQ763.63.J764 AT86432..982.Q98 J9.AT98542.QT7.2 KQ.J.AKJ54.AKT53","cards":[{"seat":"E","suit":"S","rank":"7"},{"seat":"E","suit":"S","rank":"5"},{"seat":"E","suit":"H","rank":"K"},{"seat":"E","suit":"H","rank":"Q"},{"seat":"E","suit":"H","rank":"7"},{"seat":"E","suit":"H","rank":"6"},{"seat":"E","suit":"H","rank":"3"},{"seat":"E","suit":"D","rank":"6"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"7"},{"seat":"E","suit":"C","rank":"6"},{"seat":"E","suit":"C","rank":"4"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"T"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"6"},{"seat":"S","suit":"S","rank":"4"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"D","rank":"9"},{"seat":"S","suit":"D","rank":"8"},{"seat":"S","suit":"D","rank":"2"},{"seat":"S","suit":"C","rank":"Q"},{"seat":"S","suit":"C","rank":"9"},{"seat":"S","suit":"C","rank":"8"},{"seat":"W","suit":"S","rank":"J"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"T"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"H","rank":"8"},{"seat":"W","suit":"H","rank":"5"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"H","rank":"2"},{"seat":"W","suit":"D","rank":"Q"},{"seat":"W","suit":"D","rank":"T"},{"seat":"W","suit":"D","rank":"7"},{"seat":"W","suit":"C","rank":"2"},{"seat":"N","suit":"S","rank":"K"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"J"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"K"},{"seat":"N","suit":"C","rank":"T"},{"seat":"N","suit":"C","rank":"5"},{"seat":"N","suit":"C","rank":"3"}]}
+{"type":"comment","text":"                   Nord\r\n                   RD\r\n                   V\r\n                   ARV54\r\n                   ARX53\r\n  Ouest                            Est\r\n  V9                               75\r\n  AX98542                          RD763\r\n  DX7                              63\r\n  2                                V764\r\n                   Sud\r\n                   AX86432\r\n                   -\r\n                   982\r\n                   D98\r\n"}
+{"type":"tag","name":"Declarer","value":"S"}
+{"type":"tag","name":"Contract","value":"6S","level":6,"denomination":"S","risk":""}
+{"type":"tag","name":"Result","value":"13"}
+{"type":"tag","name":"Score","value":"NS 1010"}
+{"type":"tag","name":"Auction","value":"E","section":["Pass  3S    Pass  4C  =1=","Pass  4S    Pass  6S","Pass  Pass  Pass"],"tokens":["Pass","3S","Pass","4C","=1=","Pass","4S","Pass","6S","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:.","number":1,"text":"."}
+{"type":"tag","name":"Play","value":"W","section":["HA HJ HK S2","S9 SQ S5 S4","SJ SK S7 S6","C2 CA C4 C8","*"],"tokens":["HA","HJ","HK","S2","S9","SQ","S5","S4","SJ","SK","S7","S6","C2","CA","C4","C8","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"31"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:AKJ32.J764.62.J6 Q9.AK.J983.T9532 75.QT8532.T4.A87 T864.9.AKQ75.KQ4","cards":[{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"J"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"D","rank":"2"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"6"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"D","rank":"J"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"5"},{"seat":"W","suit":"C","rank":"3"},{"seat":"W","suit":"C","rank":"2"},{"seat":"N","suit":"S","rank":"7"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"7"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"H","rank":"9"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"K"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"4"}]}
+{"type":"comment","text":"                   Nord\r\n                   75\r\n                   DX8532\r\n                   X4\r\n                   A87\r\n  Ouest                            Est\r\n  D9                               X864\r\n  AR                               9\r\n  V983                             ARD75\r\n  X9532                            RD4\r\n                   Sud\r\n                   ARV32\r\n                   V764\r\n                   62\r\n                   V6\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"3NTX","level":3,"denomination":"NT","risk":"X"}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS -550"}
+{"type":"tag","name":"Auction","value":"S","section":["Pass  1D    1H    X","2S    Pass  3H    X","Pass  3NT   Pass  Pass","X     Pass  Pass  Pass"],"tokens":["Pass","1D","1H","X","2S","Pass","3H","X","Pass","3NT","Pass","Pass","X","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"N","section":["S7 S8 SK S9","HQ H9 HJ HK","C8 CK C6 C5","D4 DA D6 D8","DT D5 D2 DJ","CA C4 CJ C3","*"],"tokens":["S7","S8","SK","S9","HQ","H9","HJ","HK","C8","CK","C6","C5","D4","DA","D6","D8","DT","D5","D2","DJ","CA","C4","CJ","C3","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"31"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"NS"}
+{"type":"tag","name":"Dealer","value":"S"}
+{"type":"tag","name":"Deal","value":"S:AKJ32.J764.62.J6 Q9.AK.J983.T9532 75.QT8532.T4.A87 T864.9.AKQ75.KQ4","cards":[{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"J"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"J"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"H","rank":"6"},{"seat":"S","suit":"H","rank":"4"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"D","rank":"2"},{"seat":"S","suit":"C","rank":"J"},{"seat":"S","suit":"C","rank":"6"},{"seat":"W","suit":"S","rank":"Q"},{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"K"},{"seat":"W","suit":"D","rank":"J"},{"seat":"W","suit":"D","rank":"9"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"3"},{"seat":"W","suit":"C","rank":"T"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"5"},{"seat":"W","suit":"C","rank":"3"},{"seat":"W","suit":"C","rank":"2"},{"seat":"N","suit":"S","rank":"7"},{"seat":"N","suit":"S","rank":"5"},{"seat":"N","suit":"H","rank":"Q"},{"seat":"N","suit":"H","rank":"T"},{"seat":"N","suit":"H","rank":"8"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"H","rank":"2"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"4"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"8"},{"seat":"N","suit":"C","rank":"7"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"8"},{"seat":"E","suit":"S","rank":"6"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"H","rank":"9"},{"seat":"E","suit":"D","rank":"A"},{"seat":"E","suit":"D","rank":"K"},{"seat":"E","suit":"D","rank":"Q"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"D","rank":"5"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"Q"},{"seat":"E","suit":"C","rank":"4"}]}
+{"type":"comment","text":"                   Nord\r\n                   75\r\n                   DX8532\r\n                   X4\r\n                   A87\r\n  Ouest                            Est\r\n  D9                               X864\r\n  AR                               9\r\n  V983                             ARD75\r\n  X9532                            RD4\r\n                   Sud\r\n                   ARV32\r\n                   V764\r\n                   62\r\n                   V6\r\n"}
+{"type":"tag","name":"Declarer","value":"W"}
+{"type":"tag","name":"Contract","value":"2NT","level":2,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"9"}
+{"type":"tag","name":"Score","value":"NS -150"}
+{"type":"tag","name":"Auction","value":"S","section":["Pass  1NT   Pass  2C","Pass  2D    Pass  2NT","Pass  Pass  Pass"],"tokens":["Pass","1NT","Pass","2C","Pass","2D","Pass","2NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"N","section":["H5 H9 HJ HA","C8 CK C6 C5","D4 DA D2 D9","DT D5 D6 DJ","C7 CQ CJ CT","CA C4 H4 C3","S7 S4 SK S9","S5 S6 SA SQ","H2 S8 SJ C2","*"],"tokens":["H5","H9","HJ","HA","C8","CK","C6","C5","D4","DA","D2","D9","DT","D5","D6","DJ","C7","CQ","CJ","CT","CA","C4","H4","C3","S7","S4","SK","S9","S5","S6","SA","SQ","H2","S8","SJ","C2","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"32"}
+{"type":"tag","name":"West","value":"B MOSS"}
+{"type":"tag","name":"North","value":"BESSIS"}
+{"type":"tag","name":"East","value":"GRUE"}
+{"type":"tag","name":"South","value":"VOLCKER"}
+{"type":"tag","name":"Room","value":"Open"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:975.A9864.84.Q92 Q6.KJ53.AKT52.A4 JT4.T2.973.KJ865 AK832.Q7.QJ6.T73","cards":[{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"H","rank":"8"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"2"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"6"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"4"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"8"},{"seat":"E","suit":"C","rank":"6"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"3"}]}
+{"type":"comment","text":"                   Nord\r\n                   D6\r\n                   RV53\r\n                   ARX52\r\n                   A4\r\n  Ouest                            Est\r\n  975                              VX4\r\n  A9864                            X2\r\n  84                               973\r\n  D92                              RV865\r\n                   Sud\r\n                   AR832\r\n                   D7\r\n                   DV6\r\n                   X73\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"6D","level":6,"denomination":"D","risk":""}
+{"type":"tag","name":"Result","value":"12"}
+{"type":"tag","name":"Score","value":"NS 920"}
+{"type":"tag","name":"Auction","value":"W","section":["Pass  1D    Pass  1S","Pass  2H    Pass  3D","Pass  3NT   Pass  4D","Pass  4H    Pass  4S","Pass  5C    Pass  6D","Pass  Pass  Pass"],"tokens":["Pass","1D","Pass","1S","Pass","2H","Pass","3D","Pass","3NT","Pass","4D","Pass","4H","Pass","4S","Pass","5C","Pass","6D","Pass","Pass","Pass"]}
+{"type":"tag","name":"Play","value":"E","section":["C5 C3 CQ CA","D3 DQ D4 D2","D7 D6 D8 DA","S4 S2 S5 SQ","ST SA S7 S6","*"],"tokens":["C5","C3","CQ","CA","D3","DQ","D4","D2","D7","D6","D8","DA","S4","S2","S5","SQ","ST","SA","S7","S6","*"]}
+{"type":"game"}
+{"type":"tag","name":"Event","value":"VG1-2017WBTC"}
+{"type":"tag","name":"Site","value":"BB-F2"}
+{"type":"tag","name":"Board","value":"32"}
+{"type":"tag","name":"West","value":"F COMBESCU"}
+{"type":"tag","name":"North","value":"FLEISHER"}
+{"type":"tag","name":"East","value":"ROMBAUT|"}
+{"type":"tag","name":"South","value":"C MARTEL"}
+{"type":"tag","name":"Room","value":"Closed"}
+{"type":"tag","name":"Scoring","value":"IMP"}
+{"type":"tag","name":"Vulnerable","value":"EW"}
+{"type":"tag","name":"Dealer","value":"W"}
+{"type":"tag","name":"Deal","value":"W:975.A9864.84.Q92 Q6.KJ53.AKT52.A4 JT4.T2.973.KJ865 AK832.Q7.QJ6.T73","cards":[{"seat":"W","suit":"S","rank":"9"},{"seat":"W","suit":"S","rank":"7"},{"seat":"W","suit":"S","rank":"5"},{"seat":"W","suit":"H","rank":"A"},{"seat":"W","suit":"H","rank":"9"},{"seat":"W","suit":"H","rank":"8"},{"seat":"W","suit":"H","rank":"6"},{"seat":"W","suit":"H","rank":"4"},{"seat":"W","suit":"D","rank":"8"},{"seat":"W","suit":"D","rank":"4"},{"seat":"W","suit":"C","rank":"Q"},{"seat":"W","suit":"C","rank":"9"},{"seat":"W","suit":"C","rank":"2"},{"seat":"N","suit":"S","rank":"Q"},{"seat":"N","suit":"S","rank":"6"},{"seat":"N","suit":"H","rank":"K"},{"seat":"N","suit":"H","rank":"J"},{"seat":"N","suit":"H","rank":"5"},{"seat":"N","suit":"H","rank":"3"},{"seat":"N","suit":"D","rank":"A"},{"seat":"N","suit":"D","rank":"K"},{"seat":"N","suit":"D","rank":"T"},{"seat":"N","suit":"D","rank":"5"},{"seat":"N","suit":"D","rank":"2"},{"seat":"N","suit":"C","rank":"A"},{"seat":"N","suit":"C","rank":"4"},{"seat":"E","suit":"S","rank":"J"},{"seat":"E","suit":"S","rank":"T"},{"seat":"E","suit":"S","rank":"4"},{"seat":"E","suit":"H","rank":"T"},{"seat":"E","suit":"H","rank":"2"},{"seat":"E","suit":"D","rank":"9"},{"seat":"E","suit":"D","rank":"7"},{"seat":"E","suit":"D","rank":"3"},{"seat":"E","suit":"C","rank":"K"},{"seat":"E","suit":"C","rank":"J"},{"seat":"E","suit":"C","rank":"8"},{"seat":"E","suit":"C","rank":"6"},{"seat":"E","suit":"C","rank":"5"},{"seat":"S","suit":"S","rank":"A"},{"seat":"S","suit":"S","rank":"K"},{"seat":"S","suit":"S","rank":"8"},{"seat":"S","suit":"S","rank":"3"},{"seat":"S","suit":"S","rank":"2"},{"seat":"S","suit":"H","rank":"Q"},{"seat":"S","suit":"H","rank":"7"},{"seat":"S","suit":"D","rank":"Q"},{"seat":"S","suit":"D","rank":"J"},{"seat":"S","suit":"D","rank":"6"},{"seat":"S","suit":"C","rank":"T"},{"seat":"S","suit":"C","rank":"7"},{"seat":"S","suit":"C","rank":"3"}]}
+{"type":"comment","text":"                   Nord\r\n                   D6\r\n                   RV53\r\n                   ARX52\r\n                   A4\r\n  Ouest                            Est\r\n  975                              VX4\r\n  A9864                            X2\r\n  84                               973\r\n  D92                              RV865\r\n                   Sud\r\n                   AR832\r\n                   D7\r\n                   DV6\r\n                   X73\r\n"}
+{"type":"tag","name":"Declarer","value":"N"}
+{"type":"tag","name":"Contract","value":"3NT","level":3,"denomination":"NT","risk":""}
+{"type":"tag","name":"Result","value":"11"}
+{"type":"tag","name":"Score","value":"NS 460"}
+{"type":"tag","name":"Auction","value":"W","section":["Pass  1C    Pass  1H  =1=","Pass  1NT   Pass  2H","Pass  2S    Pass  3NT","Pass  Pass  Pass"],"tokens":["Pass","1C","Pass","1H","=1=","Pass","1NT","Pass","2H","Pass","2S","Pass","3NT","Pass","Pass","Pass"]}
+{"type":"tag","name":"Note","value":"1:!s","number":1,"text":"!s"}
+{"type":"tag","name":"Play","value":"E","section":["C6 C3 CQ CA","D3 DQ D4 D2","D9 DJ D8 D5","D7 D6 H9 DA","HT C7 H6 DK","H2 CT H4 DT","S4 S2 -  SQ","*"],"tokens":["C6","C3","CQ","CA","D3","DQ","D4","D2","D9","DJ","D8","D5","D7","D6","H9","DA","HT","C7","H6","DK","H2","CT","H4","DT","S4","S2","-","SQ","*"]}
